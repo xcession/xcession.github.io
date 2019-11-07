@@ -1,13 +1,36 @@
 body {
+    background: #F5F5F5;
     margin: 60px auto;
-    width: 10%;
+    width: 70%;
+}
+
+.logo {
+    background: url(/img/logo.svg) no-repeat;
+    background-size: 32px 32px;
+    display: inline-block;
+    height: 32px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 32px;
+}
+
+.right {
+    float: right;
+}
+
+nav {
+    overflow: auto;
 }
 
 nav ul, footer ul {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
     font-weight: bold;
     list-style: none;
-    padding: 0px;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
 }
 
 nav ul li, footer ul li {
