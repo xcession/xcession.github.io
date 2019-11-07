@@ -4,6 +4,7 @@ title: Journal
 ---
 <h1>{{ page.title }}</h1>
 <p>This is a journal of tips, shortcuts, solutions or anything that related to computer and technology that I encounter in my daily life.</p>
+<p>This may takes some time to transfer all of my notes from DEVONThink to this site. And also once everything is here, it's going to be hard to find things later on. I'm going to add the search function and also tags cloud soon.</p>
 <ul class="posts">
     {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
