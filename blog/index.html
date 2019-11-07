@@ -4,7 +4,8 @@ title: Journal
 ---
 <h1>{{ page.title }}</h1>
 <p>This is a journal of tips, shortcuts, solutions or anything that related to computer and technology that I encounter in my daily life.</p>
-<p>This may takes some time to transfer all of my notes from DEVONThink to this site. And also once everything is here, it's going to be hard to find things later on. I'm going to add the search function and also tags cloud soon.</p>
+<p>It may takes a while to transfer all of my notes from DEVONThink to this site. I know DEVONThink is more powerful than this static markdown site, but it is only available to macOS and iOS. And because I'm using multiple operating systems, I want something that I can access on any platform that I'm currently using at that moment.</p>
+<p>Also once everything is here, it is going to be hard to find things later on. I'm going to add the search function and also tags cloud soon.</p>
 <ul class="posts">
     {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
