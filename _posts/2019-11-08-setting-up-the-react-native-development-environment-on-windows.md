@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up the React Native Development Environment on Windows"
 date:   2019-11-08 02:49 +0700
-categories: react-native windows chocolatey nodejs
+tags: react-native windows chocolatey nodejs
 ---
 ## Setting Up on Windows
 

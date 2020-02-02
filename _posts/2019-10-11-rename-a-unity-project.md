@@ -2,7 +2,7 @@
 layout: post
 title:  "Rename a Unity Project"
 date:   2019-10-11 22:12 +0700
-categories: unity gamedev
+tags: unity gamedev
 ---
 To change **Unity project name**:
 

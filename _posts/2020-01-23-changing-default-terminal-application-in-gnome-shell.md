@@ -2,7 +2,7 @@
 layout: post
 title:  "Changing Default Terminal Application in GNOME Shell"
 date:   2020-01-23 22:25 +0700
-categories: gnome terminal default
+tags: gnome terminal default
 ---
 ## Changing Default Terminal Application in GNOME Shell
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Vim: Buffers, Tabs, Windows and Modes"
 date:   2020-01-27 17:10 +0700
-categories: vim cheatsheet buffers windows tabs
+tags: vim cheatsheet buffers windows tabs
 ---
 
 ## Buffers

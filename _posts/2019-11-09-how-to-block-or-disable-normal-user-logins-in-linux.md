@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Block or Disable Normal User Logins in Linux"
 date:   2019-11-09 20:46 +0700
-categories: shell linux chsh login
+tags: shell linux chsh login
 ---
 ## How to Block User Logins Using `/etc/nologin` File
 

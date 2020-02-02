@@ -2,7 +2,7 @@
 layout: post
 title:  "Unity Asset Store Download Location"
 date:   2018-11-06 21:49 +0700
-categories: unity gamedev
+tags: unity gamedev
 ---
 ## Download The Unity Asset
 

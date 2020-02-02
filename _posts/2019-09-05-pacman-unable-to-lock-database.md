@@ -2,7 +2,7 @@
 layout: post
 title:  "pacman unable to lock database"
 date:   2019-09-05 21:01 +0700
-categories: archlinux pacman
+tags: archlinux pacman
 ---
 ## Cause of the problem
 

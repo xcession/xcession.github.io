@@ -2,7 +2,7 @@
 layout: post
 title:  "Add Comments/Notes to a GameObject in Unity"
 date:   2019-10-19 16:35 +0700
-categories: unity gamedev
+tags: unity gamedev
 ---
 In order to add a note to a `gameObject` in Hierarchies window.
 
