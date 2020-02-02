@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Rename Git Repository"
 date:   2019-03-02 02:22 +0700
-categories: git vcs
+tags: git vcs
 ---
 There are various possible interpretations of what is meant by renaming a git repository: the displayed name, the repository directory, or the remote repository name. Each requires different steps to rename.
 

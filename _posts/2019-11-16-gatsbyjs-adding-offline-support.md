@@ -2,7 +2,7 @@
 layout: post
 title:  "Gatsby.js Adding Offline Support"
 date:   2019-11-16 16:31 +0700
-categories: node gatsby
+tags: node gatsby
 ---
 To make the site more resilient to network connectivity issue, gatsby js provides an awesome plugin that cache pix and js of the site.
 

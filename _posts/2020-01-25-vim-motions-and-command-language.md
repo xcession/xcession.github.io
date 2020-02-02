@@ -2,7 +2,7 @@
 layout: post
 title:  "Vim: Motions and Command Language"
 date:   2020-01-25 22:44 +0700
-categories: vim cheatsheet motions
+tags: vim cheatsheet motions
 ---
 ## Motions and Moving
 

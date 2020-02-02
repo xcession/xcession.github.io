@@ -2,7 +2,7 @@
 layout: post
 title:  "Launching VS Code from macOS Terminal"
 date:   2018-08-23 01:32 +0700
-categories: vscode macos terminal commandline
+tags: vscode macos terminal commandline
 ---
 You can also run VS Code from the terminal by typing `code` after adding it to the path:
 

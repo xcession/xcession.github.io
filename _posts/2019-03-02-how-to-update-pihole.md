@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Update Pi-Hole"
 date:   2019-03-02 02:46 +0700
-categories: raspberry_pi rpi pihole update
+tags: raspberry_pi rpi pihole update
 ---
 We cannot update Pi-hole from the Web interface as we need to restart the server, which would interrupt the update process.
 

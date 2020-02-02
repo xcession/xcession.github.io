@@ -2,7 +2,7 @@
 layout: post
 title:  "Autologin on Kali Lite XFCE4"
 date:   2019-11-04 +0700
-categories: kalilinux xfce4 login
+tags: kalilinux xfce4 login
 ---
 Change this:
 

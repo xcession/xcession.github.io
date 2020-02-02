@@ -2,7 +2,7 @@
 layout: post
 title:  "Disable App Updates on Arch Linux"
 date:   2019-11-05 13:28:51 +0700
-categories: linux pacman archlinux
+tags: linux pacman archlinux
 ---
 Before tinkering around with the `pacman` configuration files to prevent Arch from upgrading a package on your system, you must find the exact name of the package. The best way to do this is by making use of the "`Qe`" command-line switch.
 

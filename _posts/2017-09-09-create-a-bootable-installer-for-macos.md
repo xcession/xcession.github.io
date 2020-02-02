@@ -2,7 +2,7 @@
 layout: post
 title:  "Create a bootable installer for macOS"
 date:   2017-09-09 15:45 +0700
-categories: macos installer usb flashdrive bootable
+tags: macos installer usb flashdrive bootable
 ---
 > With macOS Sierra, El Capitan, Yosemite, or Mavericks, you can use a USB flash drive or other removable media as a startup disk from which to install the Mac operating system.
 
