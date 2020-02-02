@@ -2,7 +2,7 @@
 layout: post
 title:  "Change Mac Hostname via Terminal"
 date:   2020-02-02 20:46 +0700
-tags: mac macos terminal hotname
+tags: mac macos terminal hostname
 ---
 
 Launch the terminal application in macOS and then use the following command syntax:
