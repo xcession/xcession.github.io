@@ -5,11 +5,11 @@ date:	2019-11-03 +0700
 tags: debian apt
 ---
 
-## What is `apt-get`
+## What is apt-get
 
 The `apt-get` utility is a powerful and free package management command line program, that is used to work with **Ubuntu's APT (Advanced Packaging Tool)** library to perform installation of new software packages, removing existing software packages, upgrading of existing software packages and even used to upgrading the entire operating system.
 
-## What is `apt-cache`
+## What is apt-cache
 
 The `apt-cache` command line tool is used for searching apt software package cache. In simple words, this tool is used to search software packages, collects information of packages and also used to search for what available packages are ready for installation on **Debian** or **Ubuntu** based systems.
 
