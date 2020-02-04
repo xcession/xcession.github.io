@@ -1,9 +1,13 @@
 ---
 layout: article
-title:  "Disable Automatic Update in Kali Linux"
+title:  "Kali Linux: Disable Automatic Update (Deprecated)"
 date:   2019-07-13 12:46 +0700
 categories: kali linux update
 ---
+
+This article is deprecated due to Kali Linux has move to XFCE since 2019.4.
+{:.warning}
+
 ## Installing `dconf-editor`
 
 ```
@@ -17,3 +21,4 @@ $ sudo apt-get install dconf-editor
 - Change the **download-updates** key to **false**.
 
 Source: [Kali Linux disable automatic package updates](https://unix.stackexchange.com/questions/240303/kali-linux-disable-automatic-package-updates/327497)
+
