@@ -1,10 +1,11 @@
 ---
 layout: article
-title:  "How to Block or Disable Normal User Logins in Linux"
+title:  "Linux: How to Block or Disable Normal User Logins in Linux"
 date:   2019-11-09 20:46 +0700
 tags: shell linux chsh login
 ---
-## How to Block User Logins Using `/etc/nologin` File
+
+## How to Block User Logins Using /etc/nologin File
 
 The primary function of `/etc/nologin` file is to display a message (stored in the file) to users attempting to log on to a system during the process of shutdown.
 
@@ -24,7 +25,7 @@ The Server is down for a routine maintenance. We apologize for any inconvenience
 
 Now a normal user is not able to login.
 
-## How to Bloack User Logins Using `nologin` Shell
+## How to Bloack User Logins Using nologin Shell
 
 This method works a little differently: it only blocks a user from accessing a shell. But they can log on to the system via programs such as `ftp` that do not necessarily require a shell for the user to connect to a system.
 
