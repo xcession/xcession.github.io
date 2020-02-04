@@ -1,9 +1,11 @@
 ---
 layout: article
-title:  "Change Mac Hostname via Terminal"
+title:  "Mac: Change Hostname via Terminal"
 date:   2020-02-02 20:46 +0700
 tags: mac macos terminal hostname
 ---
+
+## Change Hostname via Terminal
 
 Launch the terminal application in macOS and then use the following command syntax:
 
@@ -11,7 +13,7 @@ Launch the terminal application in macOS and then use the following command synt
 $ sudo scutil --set HostName new_hostname
 ```
 
-## Another Method for Setting the Mac Hostname
+### Another Method for Setting the Mac Hostname
 
 With modern macOS releases from macOS Mavericks and newer, you can also use the `hostname` command with a flag to set the hostname to be permanently changed:
 
@@ -19,7 +21,7 @@ With modern macOS releases from macOS Mavericks and newer, you can also use the 
 $ sudo hostname -s YourHostName
 ```
 
-## Checking the Current Mac Hostname from the Command Line
+### Checking the Current Mac Hostname from the Command Line
 
 After the above command is executed you can verify that the changes took place by typing:
 
@@ -27,7 +29,7 @@ After the above command is executed you can verify that the changes took place b
 $ hostname
 ```
 
-## Setting a Temporary Hostname Change
+### Setting a Temporary Hostname Change
 
 You can also set a __temporary hostname change__ by using the following command:
 
