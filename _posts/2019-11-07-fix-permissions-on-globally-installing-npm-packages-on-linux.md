@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Fix Permissions on Globally Installing `npm` Packages on Linux"
+title:  "NodeJS: Fix Permissions on Globally Installing npm Packages on Linux"
 date:   2019-11-07 18:52:12 +0700
 tags: npm node.js linux
 ---
+
+## Fixing npm Globally Install Packages Permissions
+
 The difference in `npm` packages that are installed **globally and locally** is that you will setup a package like a program available by a CLI (Command Line Interface), This require permissions to write in some directories that the `npm` normally don't has.
 
 When you try install some globally package (using the `-g`):
