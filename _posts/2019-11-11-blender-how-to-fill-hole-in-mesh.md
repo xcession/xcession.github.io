@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "How to Fill Hole in Mesh in Blender"
+layout: article
+title:  "Blender: How to Fill Hole in Mesh"
 date:   2019-11-11 21:32 +0700
-tags: blender
+tags: blender mesh
 ---
+
+## Filling Hole in Mesh
+
 **Blender** is useful to fill or mend a **hole** in a mesh. Holes are typically already present in a mesh or you create them while deleting elements of a mesh.
 
 - Switch to `Edit Mode` and then click the `Vertex select mode` button. You are now ready to select vertices.

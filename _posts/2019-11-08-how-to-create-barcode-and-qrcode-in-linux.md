@@ -1,9 +1,10 @@
 ---
-layout:	post
-title:	"How to Create Barcode in Linux"
+layout:	article
+title:	"Linux: How to Create Barcode and QRCode in Linux"
 date:	2019-11-08 20:34 +0700
-categories: linux barcode
+tags: linux barcode
 ---
+
 ## Install GNU Barcode
 
 On Debian based distribution:

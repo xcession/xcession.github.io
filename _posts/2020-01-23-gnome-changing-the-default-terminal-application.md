@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Changing Default Terminal Application in GNOME Shell"
+layout: article
+title:  "GNOME: Changing the Default Terminal Application"
 date:   2020-01-23 22:25 +0700
 tags: gnome terminal
 ---
-## Changing Default Terminal Application in GNOME Shell
+
+## Changing the Default Terminal Application
 
 Ideally, there'd be an option under **Details->Default Applications**, but there's currently no option for "terminal".
 
@@ -17,3 +18,4 @@ $ sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
 ```
 
 Source: [How to change default terminal application in Gnome-Shell](https://askubuntu.com/questions/749832/how-to-change-default-terminal-application-in-gnome-shell#751146)
+

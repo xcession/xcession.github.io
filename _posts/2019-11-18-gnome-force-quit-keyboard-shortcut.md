@@ -1,9 +1,12 @@
 ---
-layout:	post
-title:	"Force Quit Keyboard Shortcut in GNOME"
+layout:	article
+title:	"GNOME: Add Force Quit Keyboard Shortcut"
 date:	2019-11-18 +0700
 tags: gnome shortcut keyboard
 ---
+
+## Add Force Quit Keyboard Shortcut
+
 When you're using Linux with the GNOME UI, don't you hate it when you have to go to into the terminal or add the the force quit button to the panel just so you can exit an unresponsive program?
 
 - Go to **System>Preferences>Keyboard Shortcuts**
@@ -16,3 +19,4 @@ In **Custom Shortcuts** section you'll see **Force Quit** on the left and **Disa
 > **Note:** If you find yourself to have accidentally pressed your force quit keys, then just `right click` and it'll close out of the force quit mode.
 
 Source: [Force Quit Keyboard Shortcut](https://community.linuxmint.com/tutorial/view/30)
+
