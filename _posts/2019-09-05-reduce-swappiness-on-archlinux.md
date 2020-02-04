@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Reduce Swappiness on Arch Linux"
+title:  "Arch Linux: Reduce Swappiness"
 date:   2019-09-05 21:00 +0700
-tags: archlinux manjaro
+tags: archlinux manjaro swap
 ---
+
+## Reducing Swappiness
+
 **Swappiness** is to optimize the use of Swap and RAM. And it allows establishing the balance between both. By default when Arch Linux uses a lot of the RAM memory it starts writing some files into the Swap partition on your hard drive. The problem with this is the hard disk is slower than the RAM, soo this makes the system slower. You can reduce the use of Swap and use more RAM instead.
 
 First, check the default swappiness value. Run in a terminal:
