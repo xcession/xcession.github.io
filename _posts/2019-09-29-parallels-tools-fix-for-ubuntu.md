@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Parallel Tools Fix for Ubuntu"
-date:   2019-03-02 02:46 +0700
+title:  "Ubuntu: Parallels Tools Fix for Ubuntu"
+date:   2019-09-29 02:46 +0700
 tags: ubuntu linux debian parallels_desktop macos
 ---
+
+## Fixing Parallels Tools
+
 - Copy the files from the Parallels installation media and drop them in a folder somewhere (eg. `~/parallels_fixed`)
 - Go to the kmods directory (`cd ~/parallels_fixed/kmods`) and extract the files (`tar -xzf prl_mod.tar.gz`)
 - Remove `prl_mod.tar.gz` file from that directory (`rm prl_mod.tar.gz`)
