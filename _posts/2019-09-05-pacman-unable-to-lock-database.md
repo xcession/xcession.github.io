@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "pacman unable to lock database"
 date:   2019-09-05 21:01 +0700
 tags: archlinux pacman

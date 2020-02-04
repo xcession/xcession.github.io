@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Basic Linux Filesystems"
 date:   2019-07-23 02:37 +0700
 tags: linux filesystem

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Backup and Restore Raspberry Pi SD Card on macOS"
 date:   2017-02-02 01:15 +0700
 tags: raspberry_pi rpi sdcard macos backup restore

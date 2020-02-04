@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Rename a Unity Project"
 date:   2019-10-11 22:12 +0700
 tags: unity gamedev

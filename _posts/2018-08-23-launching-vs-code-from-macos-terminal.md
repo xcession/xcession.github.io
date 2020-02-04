@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Launching VS Code from macOS Terminal"
 date:   2018-08-23 01:32 +0700
 tags: vscode macos terminal commandline

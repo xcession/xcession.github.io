@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "How to Rename Git Repository"
 date:   2019-03-02 02:22 +0700
 tags: git vcs

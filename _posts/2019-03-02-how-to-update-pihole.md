@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "How to Update Pi-Hole"
 date:   2019-03-02 02:46 +0700
 tags: raspberry_pi rpi pihole update

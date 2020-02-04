@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "How to Fill Hole in Mesh in Blender"
 date:   2019-11-11 21:32 +0700
 tags: blender

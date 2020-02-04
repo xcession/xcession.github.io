@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Disable Automatic Update in Kali Linux"
 date:   2019-07-13 12:46 +0700
 categories: kali linux update

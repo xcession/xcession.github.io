@@ -1,5 +1,5 @@
 ---
-layout:	post
+layout:	article
 title:	"Basic Comamnds of `apt-get` and `apt-cache` Package Management"
 date:	2019-11-03 +0700
 tags: debian apt

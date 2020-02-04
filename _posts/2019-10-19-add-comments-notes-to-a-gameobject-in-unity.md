@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Add Comments/Notes to a GameObject in Unity"
 date:   2019-10-19 16:35 +0700
 tags: unity gamedev

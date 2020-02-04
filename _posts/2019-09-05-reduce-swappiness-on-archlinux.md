@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Reduce Swappiness on Arch Linux"
 date:   2019-09-05 21:00 +0700
 tags: archlinux manjaro

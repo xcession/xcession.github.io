@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Fix Permissions on Globally Installing `npm` Packages on Linux"
 date:   2019-11-07 18:52:12 +0700
 tags: npm node.js linux

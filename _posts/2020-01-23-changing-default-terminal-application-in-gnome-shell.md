@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Changing Default Terminal Application in GNOME Shell"
 date:   2020-01-23 22:25 +0700
 tags: gnome terminal

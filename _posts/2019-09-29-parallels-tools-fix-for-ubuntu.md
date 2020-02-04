@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Parallel Tools Fix for Ubuntu"
 date:   2019-03-02 02:46 +0700
 tags: ubuntu linux debian parallels_desktop macos

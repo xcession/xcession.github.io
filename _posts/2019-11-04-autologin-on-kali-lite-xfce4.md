@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Autologin on Kali Lite XFCE4"
 date:   2019-11-04 +0700
 tags: kalilinux xfce4 login

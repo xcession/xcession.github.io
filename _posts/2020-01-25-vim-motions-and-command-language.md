@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Vim: Motions and Command Language"
 date:   2020-01-25 22:44 +0700
 tags: vim cheatsheet motions

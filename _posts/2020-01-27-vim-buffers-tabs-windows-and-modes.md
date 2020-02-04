@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Vim: Buffers, Tabs, Windows and Modes"
 date:   2020-01-27 17:10 +0700
 tags: vim cheatsheet buffers windows tabs

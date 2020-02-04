@@ -1,5 +1,5 @@
 ---
-layout:	post
+layout:	article
 title:	"How to Create Barcode in Linux"
 date:	2019-11-08 20:34 +0700
 categories: linux barcode

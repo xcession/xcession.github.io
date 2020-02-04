@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Create a bootable installer for macOS"
 date:   2017-09-09 15:45 +0700
 tags: macos installer usb flashdrive bootable

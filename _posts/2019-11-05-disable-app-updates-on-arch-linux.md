@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Disable App Updates on Arch Linux"
 date:   2019-11-05 13:28:51 +0700
 tags: linux pacman archlinux

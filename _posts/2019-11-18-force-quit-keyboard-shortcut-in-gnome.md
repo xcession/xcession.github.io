@@ -1,5 +1,5 @@
 ---
-layout:	post
+layout:	article
 title:	"Force Quit Keyboard Shortcut in GNOME"
 date:	2019-11-18 +0700
 tags: gnome shortcut keyboard

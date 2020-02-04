@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Vim: Create New File Folder in NERDTree"
 date:   2020-01-28 19:20 +0700
 tags: vim plugin nerdtree filesystem
