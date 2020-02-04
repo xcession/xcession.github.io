@@ -8,7 +8,7 @@ categories: kali linux update
 This article is deprecated due to Kali Linux has moved to XFCE4 since version 2019.4.
 {:.warning}
 
-## Installing `dconf-editor`
+## Installing dconf-editor
 
 ```
 $ sudo apt-get install dconf-editor
