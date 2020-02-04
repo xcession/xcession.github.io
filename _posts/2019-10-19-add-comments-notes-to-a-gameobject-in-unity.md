@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Add Comments/Notes to a GameObject in Unity"
+title:  "Unity: Add Comments/Notes to a GameObject"
 date:   2019-10-19 16:35 +0700
 tags: unity gamedev
 ---
+
+## Adding Comments/Notes to a GameObject
+
 In order to add a note to a `gameObject` in Hierarchies window.
 
 - Create a script called "ThisIsComment". Remove everything from the script and copy the following code to it:
@@ -31,3 +34,4 @@ Obviously, each `gameObject` can have a different note with this method.
 > **Note**: After moving the component up, Unity might warn you that "This action will lose the prefab connection. Are you sure you want to continue?". Don't worry. Select "**Continue**" and then click on the "**Apply**" button on the top-right of the Inspector in order to apply this change to it's prefab.
 
 Source: [How to Add Comments/Notes to a GameObject in Unity3D](https://www.codeproject.com/Tips/1208852/How-to-Add-Comments-Notes-to-a-GameObject-in-Unity)
+
