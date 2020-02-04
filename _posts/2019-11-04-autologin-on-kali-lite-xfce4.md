@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Autologin on Kali Lite XFCE4"
+title:  "Kali Linux: Autologin on Kali Lite XFCE4"
 date:   2019-11-04 +0700
 tags: kalilinux xfce4 login
 ---
+
+## Enable Automatic Login
+
 Change this:
 
 `/etc/lightdm/lightdm.conf`
@@ -41,3 +44,4 @@ auth required pam_permit.so
 ```
 
 Source: [Autologin on Kali Lite after Dist-upgrade on XFCE4](https://forums.kali.org/showthread.php?31854-Autologin-on-Kali-Lite-after-Dist-upgrade-on-XFCE4)
+
