@@ -1,9 +1,10 @@
 ---
 layout:	article
-title:	"Basic Comamnds of `apt-get` and `apt-cache` Package Management"
+title:	"Debian: Basic Commands of apt Package Management"
 date:	2019-11-03 +0700
 tags: debian apt
 ---
+
 ## What is `apt-get`
 
 The `apt-get` utility is a powerful and free package management command line program, that is used to work with **Ubuntu's APT (Advanced Packaging Tool)** library to perform installation of new software packages, removing existing software packages, upgrading of existing software packages and even used to upgrading the entire operating system.
