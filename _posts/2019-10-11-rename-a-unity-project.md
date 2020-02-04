@@ -1,9 +1,12 @@
 ---
 layout: article
-title:  "Rename a Unity Project"
+title:  "Unity: Rename a Unity Project"
 date:   2019-10-11 22:12 +0700
-tags: unity gamedev
+tags: unity gamedev rename
 ---
+
+## Renaming the Unity Project
+
 To change **Unity project name**:
 
 - Change the unity project folder name (the parent folder of `Assets` folder)
