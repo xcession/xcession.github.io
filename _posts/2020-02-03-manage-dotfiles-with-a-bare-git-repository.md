@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Manage Dotfiles with a Bare Git Repository"
 date:   2020-02-03 23:34 +0700
 tags: dotfiles git github
