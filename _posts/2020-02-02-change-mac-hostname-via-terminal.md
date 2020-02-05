@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Mac: Change Hostname via Terminal"
+title:  "macOS: Change Hostname via Terminal"
 date:   2020-02-02 20:46 +0700
-tags: mac macos terminal hostname
+tags: macos terminal hostname
 ---
 
 ## Change Hostname via Terminal
