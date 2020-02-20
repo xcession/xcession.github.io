@@ -2,7 +2,7 @@
 layout: article
 title:  "Unity: Fade Between Scenes in Unity"
 date:   2019-10-27 16:26:57 +0700
-tags: unity gamedev
+tags: unity gamedev transition
 ---
 
 ## Fade Between Scenes in Unity
