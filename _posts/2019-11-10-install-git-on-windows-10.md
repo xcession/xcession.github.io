@@ -2,7 +2,7 @@
 layout: article
 title:  "Windows: Install Git on Windows 10"
 date:   2019-11-10 22:10:42 +0700
-tags: windows windows10 chocolatey git
+tags: windows chocolatey git
 ---
 
 ## Using Chocolatey
