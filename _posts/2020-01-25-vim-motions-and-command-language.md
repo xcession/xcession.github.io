@@ -1,9 +1,10 @@
 ---
 layout: article
 title:  "Vim: Motions and Command Language"
-date:   2020-01-25 22:44 +0700
+date:   2020-01-25 22:44:11 +0700
 tags: vim cheatsheet motions
 ---
+
 ## Motions and Moving
 
 ### Moving within a line
@@ -86,4 +87,3 @@ You can think of the text object as a kind of "noun" that can be used in place o
 You can also get a full listing from within Vim by typing `:h text-objects`.
 
 Source: [Vim: Motions & Command Language](http://springest.io/vim-motions-and-command-language)
-
