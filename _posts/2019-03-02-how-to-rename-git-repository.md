@@ -1,8 +1,8 @@
 ---
 layout: article
 title:  "Git: How to Rename Git Repository"
-date:   2019-03-02 02:22 +0700
-tags: git vcs rename
+date:   2019-03-02 02:22:36 +0700
+tags: git vcs rename repository
 ---
 
 ## Rename Git Repository
