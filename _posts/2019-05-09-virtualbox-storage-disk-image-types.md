@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "VirtualBox: Storage Disk Image Types"
-date:   2019-05-09 21:02 +0700
+date:   2019-05-09 21:02:42 +0700
 tags: virtualbox vbox storage diskimage
 ---
 
