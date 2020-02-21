@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Blender: How to Fill Hole in Mesh"
-date:   2019-11-11 21:32 +0700
+title:  "Blender: Filling Hole in Mesh"
+date:   2019-11-11 21:32:56 +0700
 tags: blender mesh
 ---
 
