@@ -1,7 +1,7 @@
 ---
 layout:	article
 title:	"GNOME: Add Force Quit Keyboard Shortcut"
-date:	2019-11-18 +0700
+date:	2019-11-18 20:40 +0700
 tags: gnome shortcut keyboard
 ---
 
