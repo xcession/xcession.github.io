@@ -38,4 +38,3 @@ $ sudo hostname new_hostname
 ```
 
 Source: [Change you Mac Hostname via Terminal](http://osxdaily.com/2010/09/06/change-your-mac-hostname-via-terminal/)
-
