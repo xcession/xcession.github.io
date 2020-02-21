@@ -1,7 +1,7 @@
 ---
 layout:	article
 title:	"Debian: Basic Commands of apt Package Management"
-date:	2019-11-03 +0700
+date:	2019-11-03 13:45:04 +0700
 tags: debian apt
 ---
 
