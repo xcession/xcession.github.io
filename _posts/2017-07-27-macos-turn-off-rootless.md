@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "macOS: Turn Off Rootless (SIP or System Integrity Protection)"
-date:   2017-07-27 02:43 +0700
+date:   2017-07-27 02:43:14 +0700
 tags: macos sip rootless
 ---
 

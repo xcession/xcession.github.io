@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "macOS: Install MPV Player with Homebrew"
-date:   2017-02-03 17:24 +0700
+date:   2017-02-03 17:24:54 +0700
 tags: macos brew.sh homebrew mpv
 ---
 

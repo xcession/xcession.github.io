@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Kali Linux: Disable Automatic Update (Deprecated)"
-date:   2019-07-13 12:46 +0700
+date:   2019-07-13 12:46:09 +0700
 tags: kali linux update
 ---
 

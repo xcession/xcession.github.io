@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "macOS: How to Show Hidden Files in Finder"
-date:   2017-05-20 18:29 +0700
+date:   2017-05-20 18:29:58 +0700
 tags: macos finder
 ---
 

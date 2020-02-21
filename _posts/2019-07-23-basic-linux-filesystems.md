@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Linux: Basic Linux Filesystems"
-date:   2019-07-23 02:37 +0700
+title:  "Linux: Basic Linux Filesystem"
+date:   2019-07-23 02:37:41 +0700
 tags: linux filesystem
 ---
 
@@ -17,4 +17,3 @@ tags: linux filesystem
 In addition, there is also `/opt` which is for monolithic non-distribution packages, although before they were properly integrated various distributions put Gnome and KDE there. Generally you should reserve it for large, poorly behaved third party packages such as Oracle.
 
 Source: [/usr/bin vs /usr/local/bin on Linux](https://unix.stackexchange.com/questions/8656/usr-bin-vs-usr-local-bin-on-linux)
-

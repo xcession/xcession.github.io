@@ -44,4 +44,3 @@ auth required pam_permit.so
 ```
 
 Source: [Autologin on Kali Lite after Dist-upgrade on XFCE4](https://forums.kali.org/showthread.php?31854-Autologin-on-Kali-Lite-after-Dist-upgrade-on-XFCE4)
-

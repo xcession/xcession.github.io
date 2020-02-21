@@ -1,8 +1,8 @@
 ---
 layout: article
 title:  "Arch Linux: Reduce Swappiness"
-date:   2019-09-05 21:00 +0700
-tags: archlinux manjaro swap
+date:   2019-09-05 21:00:59 +0700
+tags: archlinux linux manjaro swap
 ---
 
 ## Reducing Swappiness

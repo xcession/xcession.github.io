@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Ubuntu: Parallels Tools Fix for Ubuntu"
-date:   2019-09-29 02:46 +0700
+title:  "macOS: Parallels Tools Fix for Ubuntu"
+date:   2019-09-29 18:26:49 +0700
 tags: ubuntu linux debian parallels_desktop macos
 ---
 

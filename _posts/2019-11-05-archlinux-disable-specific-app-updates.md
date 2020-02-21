@@ -2,7 +2,7 @@
 layout: article
 title:  "Arch Linux: Disable Specific App Updates"
 date:   2019-11-05 13:28:51 +0700
-tags: linux pacman archlinux
+tags: linux pacman archlinux update
 ---
 
 ## Disable Updates
@@ -72,4 +72,3 @@ $ sudo pacman -Syyu
 After a few weeks of ignoring an update, it may be safe to upgrade again. To re-enable upgrades for packages that you previously disabled, just edit `/etc/pacman.conf` and remove the package name from "`IgnorePkg`". Then run `pacman` upgrade command.
 
 Source: [How to disable app updates on Arch Linux](https://www.addictivetips.com/ubuntu-linux-tips/disable-app-updates-on-arch/)
-
