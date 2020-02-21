@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Pi-hole: How to Update Pi-hole"
+title:  "Pi-hole: Update Pi-hole"
 date:   2019-03-02 02:46:11 +0700
 tags: raspberry_pi pihole update
 ---

@@ -1,8 +1,8 @@
 ---
 layout: article
-title:  "Gatsby.js: Adding Offline Support"
-date:   2019-11-16 16:31 +0700
-tags: node gatsby
+title:  "GatsbyJS: Adding Offline Support"
+date:   2019-11-16 16:31:29 +0700
+tags: gatsby react
 ---
 
 ## Adding Offline Support
@@ -22,4 +22,3 @@ plugins: [`gatsby-plugin-offline`]
 ```
 
 Source: [gatsbyjs adding offline support to your site](https://mitzen.blogspot.com/2018/12/gatsbyjs-adding-offline-support-to-your.html)
-

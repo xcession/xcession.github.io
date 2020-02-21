@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Linux: How to Block or Disable Normal User Logins in Linux"
-date:   2019-11-09 20:46 +0700
+title:  "Linux: Block or Disable Normal User Logins in Linux"
+date:   2019-11-09 20:46:21 +0700
 tags: shell linux chsh login
 ---
 

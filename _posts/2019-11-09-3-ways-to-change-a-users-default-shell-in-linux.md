@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Linux: 3 Ways to Change a Users Default Shell in Linux"
-date:   2019-11-09 20:30 +0700
+date:   2019-11-09 20:30:03 +0700
 tags: shell bash linux chsh
 ---
 

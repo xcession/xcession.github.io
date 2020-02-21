@@ -1,8 +1,8 @@
 ---
 layout:	article
-title:	"Linux: How to Create Barcode and QRCode in Linux"
-date:	2019-11-08 20:34 +0700
-tags: linux barcode
+title:	"Linux: Create Barcode and QRCode in Linux"
+date:	2019-11-08 20:34:43 +0700
+tags: linux barcode qrcode
 ---
 
 ## Install GNU Barcode
@@ -34,4 +34,3 @@ $ barcode -b "mycode2792" -S -o first.svg
 ```
 
 Source: [How to Create Bar Code and QR Code in Ubuntu](https://www.linuxhelp.com/how-to-create-bar-code-and-qr-code-in-ubuntu)
-

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "JetBrains: How to Speed Up WebStorm"
+title:  "JetBrains: Speed Up WebStorm"
 date:   2019-02-09 22:18:27 +0700
 tags: jetbrains webstorm
 ---
