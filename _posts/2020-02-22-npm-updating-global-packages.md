@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Node.js: Updating Global Packages"
+title:  "npm: Updating Global Packages"
 date:   2020-02-22 15:36:10 +0700
 tags: npm node.js update
 ---
