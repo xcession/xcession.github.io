@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "macOS: Disable Gatekeeper on macOS"
+title:  "macOS: Disable macOS Gatekeeper"
 date:   2017-07-27 02:37:03 +0700
 tags: macos gatekeeper
 ---
