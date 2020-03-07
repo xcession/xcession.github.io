@@ -2,7 +2,7 @@
 layout: article
 title:  "Git: Setting Up Git for the First Time"
 date:   2020-03-07 17:21:45 +0700
-tags: git config
+tags: git github config
 ---
 
 ## Setting Up Git for the First Time
