@@ -5,7 +5,7 @@ date:   2018-05-11 01:00:57 +0700
 tags: hackintosh ssdt powermanagement
 ---
 
-## Generate a SSDT for Power Management
+# Generate a SSDT for Power Management
 
 - Configure system with appropriate SMBIOS for your CPU using Clover Configurator
 
@@ -40,7 +40,7 @@ $ sudo ~/ssdtPRGen.sh
 
 - Reboot
 
-## How to Test Power Management
+# How to Test Power Management
 
 - Download and compile `AppleIntelInfo.kext` using Xcode. Or download here: [View attachment AppleIntelInfo.kext.zip](https://www.tonymacx86.com/attachments/appleintelinfo-kext-zip.160106/).
 

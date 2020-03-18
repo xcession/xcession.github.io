@@ -5,7 +5,7 @@ date:   2019-11-11 21:32:56 +0700
 tags: blender mesh
 ---
 
-## Filling Hole in Mesh
+# Filling Hole in Mesh
 
 **Blender** is useful to fill or mend a **hole** in a mesh. Holes are typically already present in a mesh or you create them while deleting elements of a mesh.
 

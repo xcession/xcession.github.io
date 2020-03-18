@@ -5,7 +5,7 @@ date:   2020-03-07 17:21:45 +0700
 tags: git github config
 ---
 
-## Setting Up Git for the First Time
+# Setting Up Git for the First Time
 
 After you have Git installed, you need to do few things so that the commit messages that will be generated for you will contain your correct information.
 

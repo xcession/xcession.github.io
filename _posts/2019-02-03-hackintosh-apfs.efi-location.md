@@ -5,7 +5,7 @@ date:   2019-02-03 18:02:44 +0700
 tags: macos hackintosh apfs apfs.efi clover
 ---
 
-## Locating APFS.efi
+# Locating APFS.efi
 
 To find the current version of `apfs.efi`:
 

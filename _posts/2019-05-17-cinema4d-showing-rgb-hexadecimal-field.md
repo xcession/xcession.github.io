@@ -5,7 +5,7 @@ date:   2019-05-17 10:12:23 +0700
 tags: cinema4d
 ---
 
-## Showing RGB hexadecimal Field
+# Showing RGB hexadecimal Field
 
 Here's how to show hexadecimal field in CINEMA 4D color picker.
 

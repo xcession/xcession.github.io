@@ -5,9 +5,9 @@ date:   2019-11-05 13:28:51 +0700
 tags: linux pacman archlinux update
 ---
 
-## Disable Updates
+# Disable Updates
 
-### Retrieving the Package Name
+## Retrieving the Package Name
 
 Before tinkering around with the `pacman` configuration files to prevent Arch from upgrading a package on your system, you must find the exact name of the package. The best way to do this is by making use of the "`Qe`" command-line switch.
 
@@ -39,7 +39,7 @@ $ cat ~/package-info.txt
 
 After doing your search with the `grep` tool, you'll see the package name followed by a version number. Ignore the version number and take note of the package name, as you'll need this when editing configuration files.
 
-### Editing `pacman.conf`
+## Editing `pacman.conf`
 
 The way to prevent Arch Linux from upgrading installed packages is by editing the `/etc/pacman.conf` file and taking advantage of the "`IgnorePkg`" feature. To get to this feature, launch a terminal window and open up the `pacman.conf` file inside of the text editor with root privileges.
 
@@ -67,7 +67,7 @@ Assuming all edits to `pacman` configuration file are done correctly, you'll be 
 $ sudo pacman -Syyu
 ```
 
-## Enabling Updates
+# Enabling Updates
 
 After a few weeks of ignoring an update, it may be safe to upgrade again. To re-enable upgrades for packages that you previously disabled, just edit `/etc/pacman.conf` and remove the package name from "`IgnorePkg`". Then run `pacman` upgrade command.
 

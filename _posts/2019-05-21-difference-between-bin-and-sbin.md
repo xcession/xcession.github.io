@@ -5,7 +5,7 @@ date:   2019-05-21 20:47:32 +0700
 tags: filesystem linux
 ---
 
-## bin and sbin
+# bin and sbin
 
 Ever been curious about the difference between `bin` and `sbin`? The ‘s’ in `sbin` means ‘system’. Therefore, system binaries reside in `sbin` directories.
 

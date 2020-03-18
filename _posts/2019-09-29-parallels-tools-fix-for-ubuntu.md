@@ -5,7 +5,7 @@ date:   2019-09-29 18:26:49 +0700
 tags: ubuntu linux debian parallels_desktop macos
 ---
 
-## Fixing Parallels Tools
+# Fixing Parallels Tools
 
 - Copy the files from the Parallels installation media and drop them in a folder somewhere (eg. `~/parallels_fixed`)
 - Go to the kmods directory (`cd ~/parallels_fixed/kmods`) and extract the files (`tar -xzf prl_mod.tar.gz`)

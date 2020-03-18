@@ -5,13 +5,13 @@ date:   2017-09-09 15:45:11 +0700
 tags: macos installer usb flashdrive bootable
 ---
 
-## Create a macOS bootable installer
+# Create a macOS bootable installer
 
 > You can use an external drive or secondary volume as a startup disk from which to install the Mac operating system.
 
 These advanced steps are intended primarly for system administrators and others who are familiar with the command line. Make sure you use a USB flash drive or other removable media that has at least 12GB of available disk space.
 
-## Download macOS
+# Download macOS
 
 Find the appropriate download link in the upgrade instructions for each macOS version:
 
@@ -20,13 +20,13 @@ Find the appropriate download link in the upgrade instructions for each macOS ve
 - [macOS Sierra](https://support.apple.com/kb/HT208202) downloads as a disk image that contains a file named InstallOS.pkg. Open this file and follow the onscreen instructions. It installs an app named Install macOS Sierra into your Applications folder.
 - [OS X El Capitan](https://support.apple.com/kb/HT206886) downloads as a disk image that contains a file named InstallMacOSX.pkg. Open this file and follow the onscreen instructions. It installs an app named Install OS X El Capitan into your Applications folder. 
 
-### Use the 'createinstallmedia' command in Terminal
+## Use the 'createinstallmedia' command in Terminal
 
 - Connect the USB flash drive or other volume. You could also use a secondary internal partition that has at least 12GB of available disk space for the installation files.
 - Open the **Terminal.app**, which is in the **Utilities** folder of your **Applications** folder.
 - Use the `createinstallmedia` command in Terminal to create the bootable installer. For detailed usage instructions, make sure that the appropriate macOS installer is in your Applications folder, then enter one of the following paths in Terminal:
 
-#### Post Mojave (> 10.14)
+### Post Mojave (> 10.14)
 
 Apple has simplified the `createinstallmedia` command and the `--applicationpath` is deprecated.
 
@@ -44,7 +44,7 @@ sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstall
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume [volumepath]
 ```
 
-#### Pre Mojave (< 10.14)
+### Pre Mojave (< 10.14)
 
 ```
 createinstallmedia --volume [volumepath] --applicationpath [installerpath]
@@ -77,7 +77,7 @@ sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstal
 
 This is the basic syntax of the command. Replace `[volumepath]` with the path to your USB flash drive or other volume, and replace `[installerpath]` with the path to the Install OS X app.
 
-#### Example
+### Example
 
 The following examples assume that the OS X installer is in your Applications folder and the name of your USB flash drive or other volume is MyVolume:
 
@@ -89,7 +89,7 @@ sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallme
 
 > **NOTE:** "`--applicationpath`" is deprecated in macOS 10.14 and greater. Please remove it from your invocation.
 
-#### Optional Command
+### Optional Command
 
 ```
 --nointeraction &&say Done
@@ -105,4 +105,3 @@ Source:
 - [Create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 - [How to Create a Bootable macOS Sierra Installer](http://osxdaily.com/2016/09/23/create-boot-macos-sierra-installer/)
 - [Create a bootable USB drive for Yosemite the easy way](https://blog.viktorpetersson.com/2014/09/18/create-a-bootable-usb-drive-for-yosemite-the-easy.html)
-

@@ -5,7 +5,7 @@ date:   2019-05-10 20:26:57 +0700
 tags: macos homebrew brew.sh
 ---
 
-## List All Homebrew Installed Packages
+# List All Homebrew Installed Packages
 
 Homebrew includes a simple and convenient command to list all packages that have been installed through brew, the syntax is as follows:
 
@@ -31,7 +31,7 @@ $ brew list > homebrewpackages.txt
 
 The output would be the same, but now its stored in the “homebrewpackages.txt” file which you could share with someone else or document for other purposes.
 
-## How to List All Cask Homebrew Packages on Mac
+# How to List All Cask Homebrew Packages on Mac
 
 ```
 $ brew cask list
@@ -47,7 +47,7 @@ $ ls /usr/local/Cellar/
 
 The output of that command will be every package installed through Homebrew, as they always end up in that directory by default.
 
-## How do I find what Homebrew packages are available to install?
+# How do I find what Homebrew packages are available to install?
 
 Obviously we’re focusing on what Homebrew packages are currently installed on a Mac, but if you want a list of Homebrew packages that are available to install instead then you can use either of the following methods. The first approach uses a simple search command:
 

@@ -5,7 +5,7 @@ date:   2020-02-22 20:01:18 +0700
 tags: node.js npm uninstall
 ---
 
-## Uninstalling Local Packages
+# Uninstalling Local Packages
 
 You can remove a package from you node_modules directory using `npm uninstall <package>`:
 
@@ -19,7 +19,7 @@ To remove it from the dependencies in `package.json`, you will need to use the s
 npm uninstall --save lodash
 ```
 
-## Uninstalling Global Packages
+# Uninstalling Global Packages
 
 Global packages can be uninstalled with `npm uninstall -g <package>`:
 

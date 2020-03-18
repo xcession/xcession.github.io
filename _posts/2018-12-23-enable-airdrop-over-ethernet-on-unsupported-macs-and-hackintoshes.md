@@ -5,7 +5,7 @@ date:   2018-12-23 16:23:08 +0700
 tags: macos hackintosh airdrop
 ---
 
-## Enable Airdrop Over Ethernet
+# Enable Airdrop Over Ethernet
 
 Simply enter to following command into Terminal:
 

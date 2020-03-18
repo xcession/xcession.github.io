@@ -5,7 +5,7 @@ date:   2018-02-23 20:19:44 +0700
 tags: commandline cpu macos terminal
 ---
 
-## Getting CPU Info from Command Line
+# Getting CPU Info from Command Line
 
 - Launch **Terminal**.
 - Enter following `sysctl` command.

@@ -8,13 +8,13 @@ tags: kali linux update
 This article is deprecated due to Kali Linux has moved to XFCE4 since version 2019.4.
 {:.warning}
 
-## Installing dconf-editor
+# Installing dconf-editor
 
 ```
 $ sudo apt-get install dconf-editor
 ```
 
-## Disable the Automatic Update
+# Disable the Automatic Update
 
 - Open `dconf-editor`.
 - Navigate to **org > gnome > software**.

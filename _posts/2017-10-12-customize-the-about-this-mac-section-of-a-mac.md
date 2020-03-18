@@ -5,11 +5,11 @@ date:   2017-10-12 16:02:40 +0700
 tags: customize macos
 ---
 
-## Customizing the About This Mac
+# Customizing the About This Mac
 
 > ****BACK UP** the original file to a safe location on your computer before modifying it, in case of a mistake or wanting to revert to stock later.
 
-## Changing the System Logo
+# Changing the System Logo
 
 This section will modify the circular image of your OS version on the main “About This Mac” page. On older OS versions, this used to be an image of your computer hardware.
 
@@ -27,7 +27,7 @@ For future reference, the full file path for this image is:
 
 To revert, simply replace your backup of the original file, overwriting your edited image.
 
-## Changing the Model Name and Year
+# Changing the Model Name and Year
 
 This section will change the reported hardware model and production year on the main “About This Mac” page. On a Hackintosh this page will usually report the Model you have selected in your SMBIOS settings, but you might want it to say something different. For example, for best performance on my hack, I have an iMac model set in my SMBIOS. However, the case I made for it is from an old G5, so I want that model to be reported instead in “About This Mac”. If you are on a real Mac this will likely be just, as they apparently say, “for funsies”.
 
@@ -49,7 +49,7 @@ For future reference, the full file path for the document to edit is:
 
 To revert, simply replace your backup of the original file, overwriting your edited .plist.
 
-## Changing the processor name
+# Changing the processor name
 
 This setting may allow you to change the processor name, but I have had mixed results. It worked on my Hackintosh, but not on my MacBook Pro, so your mileage may vary.
 
@@ -79,7 +79,7 @@ For future reference, the full file path for the document to edit is:
 
 To revert, simply replace your backup of the original file, overwriting your edited .strings file.
 
-## Changing the Displays image
+# Changing the Displays image
 
 This edit is one of the most useful, as many people use external displays, and they come from many third-parties. Consequently, a generic icon is used by Apple in the “Displays” section of “About This Mac”, and in the “Displays” section of “System Preferences”. Many people will wish to change this to an image of their specific external display model.
 

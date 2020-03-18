@@ -5,7 +5,7 @@ date:   2019-02-08 05:25:25 +0700
 tags: jetbrains webstorm react react-native
 ---
 
-## Install React Native CLI
+# Install React Native CLI
 
 Make sure you have a React Native CLI installed on your machine. To install it, run the following command in the Terminal:
 
@@ -15,7 +15,7 @@ $ npm install -g react-native-cli
 
 The list of tools you need to install to get started with React Native depends on your OS and the mobile platform you’re going to target your app at. Check out [React Native’s Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html) for detailed installation instructions.
 
-## Creating a new project
+# Creating a new project
 
 Now you can create a new React Native project right from the IDE Welcome screen:
 
@@ -27,7 +27,7 @@ Of course you can also open an existing project or check one out from version co
 
 We recommend that you exclude **android** and **ios** folders from the project. To do that, right-click on a folder in the Project view and select **Mark as Excluded**.
 
-## Running and debugging the app
+# Running and debugging the app
 
 Now that we have our app’s code in the IDE, let’s run it.
 

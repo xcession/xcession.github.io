@@ -5,7 +5,7 @@ date:   2019-03-20 18:46:31 +0700
 tags: macos backup restore homebrew brew.sh
 ---
 
-## Brewfiles
+# Brewfiles
 
 This is where the magic happens. If you ever used `npm`, `bower` or another package-/assetsmanager you might be using dependency files that list a number of packages or assets that are to be installed. `Brewfiles` do about the same but then for your Homebrew configuration.
 
@@ -15,7 +15,7 @@ Let’s get started quickly! Install the Homebrew tap:
 $ brew tap Homebrew/bundle
 ```
 
-### Dumping all of your Homebrew packages at once
+## Dumping all of your Homebrew packages at once
 
 Run the following command to create a text file named `Brewfile` with all Homebrew packaged installed on your system:
 
@@ -48,7 +48,7 @@ Keep this file safe in your cloud filestorage like Dropbox or e-mail.
 $ mv Brewfile ~/Dropbox
 ```
 
-### Restore your configuration
+## Restore your configuration
 
 Change your working directory to the folder containing the Brewfile. Then, to install/restore all items in the file, run:
 
@@ -59,7 +59,7 @@ $ brew bundle
 
 Voilá! Homebrew starts reinstalling all packages.
 
-### Creating a custom Brewfile
+## Creating a custom Brewfile
 
 The Brewfile syntax is easy. Each line is a command that gets executed. First, create an empty Brewfile:
 

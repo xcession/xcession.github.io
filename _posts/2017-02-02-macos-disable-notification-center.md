@@ -5,7 +5,7 @@ date:   2017-02-02 11:46:45 +0700
 tags: macos notification
 ---
 
-## Notification Center
+# Notification Center
 
 Notification Center can be great for reminders, messages and other alerts that you need in order to get through your day unscathed, but if you’re like me, notifications are the devil and they merely just distract you from what you were working on. To disable Notification Center completely, follow these quick steps:
 

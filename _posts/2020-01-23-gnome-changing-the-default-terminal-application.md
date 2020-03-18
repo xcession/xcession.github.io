@@ -5,7 +5,7 @@ date:   2020-01-23 22:25:11 +0700
 tags: gnome terminal
 ---
 
-## Changing the Default Terminal Application
+# Changing the Default Terminal Application
 
 Ideally, there'd be an option under **Details->Default Applications**, but there's currently no option for "terminal".
 

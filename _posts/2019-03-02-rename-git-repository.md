@@ -5,18 +5,18 @@ date:   2019-03-02 02:22:36 +0700
 tags: git vcs rename repository
 ---
 
-## Rename Git Repository
+# Rename Git Repository
 
 There are various possible interpretations of what is meant by renaming a git repository: the displayed name, the repository directory, or the remote repository name. Each requires different steps to rename.
 
-### Displayed Name
+## Displayed Name
 
 Rename the displayed name (e.g., shown by `gitweb`):
 
 - Edit `.git/description` to contain the repository's name.
 - Save the file.
 
-### Repository Directory
+## Repository Directory
 
 Git does not reference the name of the directory containing the repository, as used by `git clone master child`, so we can simply rename it:
 
@@ -24,7 +24,7 @@ Git does not reference the name of the directory containing the repository, as u
 - Change to the directory that contains the repository directory (i.e., do not go into the repository directory itself).
 - Rename the directory (e.g., using `mv` from the command line or the `F2` hotkey from a GUI).
 
-### Remote Repository
+## Remote Repository
 
 Rename a remote repository as follows:
 

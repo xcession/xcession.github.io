@@ -5,7 +5,7 @@ date:   2017-02-03 17:29:57 +0700
 tags: encryption macos openssl
 ---
 
-## Encrypting the file.
+# Encrypting the file.
 
 - Open **Terminal**.
 
@@ -28,7 +28,7 @@ Verifying - enter aes-256-cbc encryption password:
 
 - Done!
 
-## Decrypting the file.
+# Decrypting the file.
 
 - Open **Terminal**.
 

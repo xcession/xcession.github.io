@@ -5,34 +5,34 @@ date:   2019-05-09 21:02:42 +0700
 tags: virtualbox vbox storage diskimage
 ---
 
-## Supported Disk Image
+# Supported Disk Image
 
-### Full Support
+## Full Support
 
 - VDI
 - VMDK
 - VHD
 
-### Partial Support
+## Partial Support
 
 - HDD (Parallels version 2 only)
 
-### [Undocumented](https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Storage/) Support
+## [Undocumented](https://www.virtualbox.org/svn/vbox/trunk/src/VBox/Storage/) Support
 
 - QCOW
 - QED
 
-## Dynamic Sizing
+# Dynamic Sizing
 
 **VDI**, **VMDK** and **VHD** all support dynamically allocated storage. **VMDK** has an additional capability of splitting the storage file into files less than 2GB each, which is useful if your file system has a small size limit.
 
 **HDD**, **QCOW** and **QED** have to be dynamically allocated if created in VirtualBox.
 
-## Snapshots
+# Snapshots
 
 VirtualBox supports snapshotting of **all six formats**.
 
-## Moving VM Between OSes or Another Virtualization Software
+# Moving VM Between OSes or Another Virtualization Software
 
 **VDI** is the native format of VirtualBox. Other virtualization software generally don't support VDI, but it's pretty easy to convert from VDI to another format, especially with [https://linux.die.net/man/1/qemu-img](`qemu-img convert`).
 

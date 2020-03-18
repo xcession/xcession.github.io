@@ -5,7 +5,7 @@ date:   2019-02-09 22:18:27 +0700
 tags: jetbrains webstorm
 ---
 
-## Speed Up WebStorm
+# Speed Up WebStorm
 
 - Go to **Preferences** and do next:
     - **Appearance & Behaviour > System Settings > Updates**: disable auto update

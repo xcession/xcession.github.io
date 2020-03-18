@@ -5,7 +5,7 @@ date:   2019-05-21 16:06:37 +0700
 tags: kali linux
 ---
 
-## Install & Lock Down Kali Linux for Safe Desktop Use
+# Install & Lock Down Kali Linux for Safe Desktop Use
 
 Kali Linux is established as the go-to operating system for penetration testing, but it's default configuration, it's less than ideal for regular desktop use. While in many scenarios, a live boot or virtual environment can resolve these issues, in some situations, a full installation is better. A few simple changes can be made to Kali Linux desktop to make it safer to use in this environment.
 
@@ -23,7 +23,7 @@ Kali is by no means recommended or ideal for primary desktop usage. To quote the
 
 If you do, however, choose to install Kali Linux, there are a few steps which can be taken to make it more practical for regular desktop usage as well as penetration testing. This can be useful for longer projects, producing documentation or reports during an engagement, or for limiting the number of operating systems and partitions one may need on a given system.
 
-## Configuring User Accounts
+# Configuring User Accounts
 
 In the default Kali configuration, the operating system is single-user. This user account is the root account, or superuser account, designed on most systems to separate privileges such that only one user account is able to do certain tasks. On Kali, this is convenient for most usage as there is no need to switch between users.
 
@@ -90,7 +90,7 @@ $ _
 
 Now that a new user account and shell has been configured, the account is ready to use! Commands you wish to run as root can be prefaced with `sudo` when running as a standard user, maintaining the security and isolation of privileges provided by most standard Linux desktops.
 
-## Changing Network Service Policies
+# Changing Network Service Policies
 
 As stated in the [Kali documentation](https://docs.kali.org/policy/kali-linux-network-service-policies), "Kali Linux deals with network services in a very different way than typical Linux distributions. Specifically, Kali does not enable any externally-listening services by default with the goal of minimizing exposure when in a default state." These changes mean that Kali "will disallow network services from persisting across reboots by default."
 
@@ -108,7 +108,7 @@ If you have a service you'd like to add to the whitelist, first ensure that it i
 
 After you are done editing this file, you can save your changes by pressing `Ctrl+O` and exit with `Ctrl+X`. Any changes which are made to startup initialization services should take effect on the next reboot.
 
-## Enable Kali Rolling
+# Enable Kali Rolling
 
 After installing Kali, you should check your repository sources to ensure that the correct address is set. Run the command below to edit the file in Nano.
 

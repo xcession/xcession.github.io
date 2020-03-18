@@ -5,11 +5,11 @@ date:   2017-07-27 02:43:14 +0700
 tags: macos sip rootless
 ---
 
-## Turning Off SIP
+# Turning Off SIP
 
 Apple introduced System Integrity Protection (rootless) mode as a security feature in OS X El Capitan. It prevents you (and programs) from changing root-level files even with your password, but it can stop some programs from working. Here's how to disable it
 
-## How to turn off rootless/System Integrity Protection on Mac: Disable SIP
+# Turn off rootless/System Integrity Protection on Mac: Disable SIP
 
 - Turn off your Mac (**Apple > Shut Down**).
 - Hold down **Command-R** and press the Power button. Keep holding **Command-R** until the Apple logo appears.
@@ -20,7 +20,7 @@ Apple introduced System Integrity Protection (rootless) mode as a security featu
 
 Your Mac will reboot and start up with SIP disabled. You can check the status of SIP by opening Terminal and entering ```csrutil status```. You should see "System Integrity Protection status: disabled."
 
-## How to turn on rootless/System Integrity Protection on Mac: Switch SIP back on
+# Turn on rootless/System Integrity Protection on Mac: Switch SIP back on
 
 - Turn off your Mac (**Apple > Shut Down**).
 - Hold down **Command-R** and press the Power button. Keep holding **Command-R** until the Apple logo appears.

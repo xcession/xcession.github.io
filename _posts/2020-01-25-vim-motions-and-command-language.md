@@ -5,16 +5,16 @@ date:   2020-01-25 22:44:11 +0700
 tags: vim cheatsheet motions
 ---
 
-## Motions and Moving
+# Motions and Moving
 
-### Moving within a line
+## Moving within a line
 
 - `h`, `l` - move left/right by character
 - `w` - move forward one (w)ord
 - `b` - back (b)ackward one word
 - `e` - move forward to the (e)nd of a word
 
-### Jumping within a line
+## Jumping within a line
 
 - `f<char>` - (f)ind a character forward in a line and move to it
 - `T<char>` - find a character backward in a line and move un(t)il it
@@ -24,7 +24,7 @@ tags: vim cheatsheet motions
 - `$` - go to the end of the line
 - `0` - go to the beginning of the line
 
-### Moving between lines
+## Moving between lines
 
 - `j`, `k` - move up/down one line
 - `H`, `M`, `L` - move (H)igh, (M)iddle, or (L)ow within the viewport
@@ -39,7 +39,7 @@ tags: vim cheatsheet motions
 - `G` - go to the end of the file
 - `gg` - go to the beginning of the file
 
-## Command Language
+# Command Language
 
 Just as any sentence is made up of a verb and a noun, an editing command is made up of two parts: an operation and a section of text. For example, take the command for "delete this word", "change the next sentence" or "copy this parapraph". They all the same structure:
 
@@ -51,7 +51,7 @@ Just as any sentence is made up of a verb and a noun, an editing command is made
 - The command is an operation, e.g, change, delete(cut), or yank(copy).
 - The text object or motion can either be a text construct, e.g., a word, a sentence, a paragraph, or a motion, e.g., forward a line, back one page, end of the line.
 
-### Commands
+## Commands
 
 - `d` - (D)elete
 - `c` - (C)hange
@@ -61,7 +61,7 @@ Just as any sentence is made up of a verb and a noun, an editing command is made
 
   The simplest commands are made by repeating the operator a second time to act one the current line. For example, where `d` is the operator for __delete__, `dd` will delete the whole line. Each of `yy`, `cc`, `>>`, `==` behave similarly.
 
-### Using Motions
+## Using Motions
 
 We can also identify text by using any motion. Just like you can use `w` to move to the next word, you can use `dw` to delete to the next word. This also includes more complex motions such as `t`, which will wait for you to specify a character to go up un(t)il.
 
@@ -73,7 +73,7 @@ We can also identify text by using any motion. Just like you can use `w` to move
 - `dt)` - delete up until next closing parenthesis
 - `d/rails` - delete up until the first search match for "rails"
 
-### Using Text Objects
+## Using Text Objects
 
 You can think of the text object as a kind of "noun" that can be used in place of motions to define a range of text from anywhere within it.
 

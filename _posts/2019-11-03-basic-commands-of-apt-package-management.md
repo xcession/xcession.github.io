@@ -5,15 +5,15 @@ date:	2019-11-03 13:45:04 +0700
 tags: debian apt
 ---
 
-## What is apt-get
+# What is apt-get
 
 The `apt-get` utility is a powerful and free package management command line program, that is used to work with **Ubuntu's APT (Advanced Packaging Tool)** library to perform installation of new software packages, removing existing software packages, upgrading of existing software packages and even used to upgrading the entire operating system.
 
-## What is apt-cache
+# What is apt-cache
 
 The `apt-cache` command line tool is used for searching apt software package cache. In simple words, this tool is used to search software packages, collects information of packages and also used to search for what available packages are ready for installation on **Debian** or **Ubuntu** based systems.
 
-## 1. List All Available Packages
+# 1. List All Available Packages
 
 To list all the available packages, type the following command.
 
@@ -21,7 +21,7 @@ To list all the available packages, type the following command.
 $ apt-cache pkgnames
 ```
 
-## 2. Find Out Package Name and Description of Software
+# 2. Find Out Package Name and Description of Software
 
 To find out the package name nad with it description before installing, use the `search` flag. Using `search` with `apt-cache` will display a list of matched packages with short description.
 
@@ -35,7 +35,7 @@ To find and list down all the packages starting with `vsftpd`, you could use the
 $ apt-cache pkgnames vsftpd
 ```
 
-## 3. Check Package Information
+# 3. Check Package Information
 
 For example, if you would like to check information of package along with it short description say (version number, check sums, size, installed size, category etc.). Use `show` sub command as shown below.
 
@@ -64,7 +64,7 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Origin: Ubuntu
 ```
 
-## 4. Check Dependencies for Specific Packages
+# 4. Check Dependencies for Specific Packages
 
 Use the `showpkg` sub command to check the dependencies for particular software packages. whether those dependencies packages are installed or not. For example, use the `showpkg` command along with package-name.
 
@@ -91,7 +91,7 @@ Provides:
 Reverse Provides:
 ```
 
-## 5. Check statistic of Cache
+# 5. Check statistic of Cache
 
 The `stats` sub command will display overall statistics about the cache. For example, the following command will display Total package names and number of packages have found in the cache.
 
@@ -117,7 +117,7 @@ Total slack space: 62.6 k
 Total space accounted for: 13.3 M
 ```
 
-## 6. Update System Packages
+# 6. Update System Packages
 
 The `update` command is used to resynchronize the package index files from their sources specified in `/etc/apt/sources.list` file. The update command fetched the packages from their locations and update the packages to newer version.
 
@@ -125,7 +125,7 @@ The `update` command is used to resynchronize the package index files from their
 $ sudo apt-get update
 ```
 
-## 7. Upgrade Software Packages
+# 7. Upgrade Software Packages
 
 The `upgrade` command is used to upgrade all the currently installed software packages on the system. Under any circumstances currently installed packages are not removed or packages which are not already installed neither retrieved and installed to satisfy upgrade dependencies.
 
@@ -139,7 +139,7 @@ However, if you want to upgrade, unconcerned of whether software packages will b
 $ sudo apt-get dist-upgrade
 ```
 
-## 8. Install or Upgrade Specific Packages
+# 8. Install or Upgrade Specific Packages
 
 The `install` sub command is tracked by one or more packages wish for installation or upgrading.
 
@@ -147,7 +147,7 @@ The `install` sub command is tracked by one or more packages wish for installati
 $ sudo apt-get install netcat
 ```
 
-## 9. Install Multiple Packages
+# 9. Install Multiple Packages
 
 You can add more than one package name along with the command in order to install multiple packages at the same time. For example, the following command will install packages `nethogs` and `goaccess`.
 
@@ -155,7 +155,7 @@ You can add more than one package name along with the command in order to instal
 $ sudo apt-get install nethogs goaccess
 ```
 
-## 10. Install Several Packages using Wildcard
+# 10. Install Several Packages using Wildcard
 
 With the help of regular expression you can add several packages with one string. For example, we use `*` wildcard to install several packages that contains the `*name*` string, name sould be `package-name`.
 
@@ -163,7 +163,7 @@ With the help of regular expression you can add several packages with one string
 $ sudo apt-get install `*name*`
 ```
 
-## 11. Install Packages without Upgrading
+# 11. Install Packages without Upgrading
 
 Using sub `--no-upgrade` command will prevent already installed packages from upgrading.
 
@@ -171,7 +171,7 @@ Using sub `--no-upgrade` command will prevent already installed packages from up
 $ sudo apt-get install packageName --no-upgrade
 ```
 
-## 12. Upgrade Only Specific Packages
+# 12. Upgrade Only Specific Packages
 
 The `--only-upgrade` command do not install new packages but it only upgrade the already installed packages and disables new installation of packages.
 
@@ -179,7 +179,7 @@ The `--only-upgrade` command do not install new packages but it only upgrade the
 $ sudo apt-get install packageName --only-upgrade
 ```
 
-## 13. Install Specific Package Version
+# 13. Install Specific Package Version
 
 Let's say you wish to install only specific version of packages, simply use `=` with the package-name and append desired version.
 
@@ -187,7 +187,7 @@ Let's say you wish to install only specific version of packages, simply use `=` 
 $ sudo apt-get install vsftpd=2.3.5-3ubuntu1
 ```
 
-## 14. Remove Packages Without Configuration
+# 14. Remove Packages Without Configuration
 
 To uninstall software packages without removing their configuration files (for later re-use the same configuration). Use the `remove` command as shown.
 
@@ -195,7 +195,7 @@ To uninstall software packages without removing their configuration files (for l
 $ sudo apt-get remove vsftpd
 ```
 
-## 15. Completely Remove Packages
+# 15. Completely Remove Packages
 
 To remove software packages inclusing their configuration files, use the `purge` sub command as shown below.
 
@@ -209,7 +209,7 @@ Alternativly, you can combine both the commands together as shown below.
 $ sudo apt-get remove --purge vsftpd
 ```
 
-## 16. Clean Up Disk Space
+# 16. Clean Up Disk Space
 
 The `clean` command is used to free up the disk space by cleaning retrieved (downloaded) **.deb** files (packages) from the local repository.
 
@@ -217,7 +217,7 @@ The `clean` command is used to free up the disk space by cleaning retrieved (dow
 $ sudo apt-get clean
 ```
 
-## 17. Download Only Source Code of Package
+# 17. Download Only Source Code of Package
 
 To download only source code of particular package, use th eoption `--download-only source` with `package-name` as shown.
 
@@ -225,7 +225,7 @@ To download only source code of particular package, use th eoption `--download-o
 $ sudo apt-get --download-only source vsftpd
 ```
 
-## 18. Download and Unpack a Package
+# 18. Download and Unpack a Package
 
 To download and unpack source code of a package to a specific directory, type the following command.
 
@@ -233,7 +233,7 @@ To download and unpack source code of a package to a specific directory, type th
 $ sudo apt-get source vsftpd
 ```
 
-## 19. Download, Unpack and Compile a Package
+# 19. Download, Unpack and Compile a Package
 
 You can also download, unpack and compile the source code at the same time, using option `--compile` as shown below.
 
@@ -241,7 +241,7 @@ You can also download, unpack and compile the source code at the same time, usin
 $ sudo apt-get --compile source goaccess
 ```
 
-## 20. Download a Package Without Installing
+# 20. Download a Package Without Installing
 
 Using `download` option, you can download any given package without installing it. For example, the following command witll only download `nethogs` package to current working directory.
 
@@ -249,7 +249,7 @@ Using `download` option, you can download any given package without installing i
 $ sudo apt-get download nethogs
 ```
 
-## 21. Check Change Log of Package
+# 21. Check Change Log of Package
 
 The `changelog` flag downloads a package change-log and shows the package version that is installed.
 
@@ -257,7 +257,7 @@ The `changelog` flag downloads a package change-log and shows the package versio
 $ sudo apt-get changelog vsftpd
 ```
 
-## 22. Check Broken Dependencies
+# 22. Check Broken Dependencies
 
 The `check` command is a diagnostic tool. It used to update package cache and check for broken dependencies.
 
@@ -265,7 +265,7 @@ The `check` command is a diagnostic tool. It used to update package cache and ch
 $ sudo apt-get check
 ```
 
-## 23. Search and Build Dependencies
+# 23. Search and Build Dependencies
 
 This `build-dep` command searches the local repositories in the system and install the build dependencies for packages. If the package does not exists in the local repository it will return an error code.
 
@@ -273,7 +273,7 @@ This `build-dep` command searches the local repositories in the system and insta
 $ sudo apt-get build-dep netcat
 ```
 
-## 24. Auto clean Apt-Get Cache
+# 24. Auto clean Apt-Get Cache
 
 The `autoclean` commane delete all **.dep** files from `/var/cache/apt/archives` to free-up significant volume of disk space.
 
@@ -281,7 +281,7 @@ The `autoclean` commane delete all **.dep** files from `/var/cache/apt/archives`
 $ sudo apt-get autoclean
 ```
 
-## 25. Auto remove Install Packages
+# 25. Auto remove Install Packages
 
 The `autoremove` sub command is used to auto remove packages that were certainly installed to satisfy dependencies for other packages and but they were now no longer required. For example, the following command will remove an installed package with its dependencies.
 

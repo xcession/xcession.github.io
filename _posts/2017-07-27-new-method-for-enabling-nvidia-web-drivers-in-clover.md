@@ -5,7 +5,7 @@ date:   2017-07-27 03:44:15 +0700
 tags: macos hackintosh clover nvidia driver
 ---
 
-## Enabling Nvidia Web Drivers
+# Enabling Nvidia Web Drivers
 
 As of **macOS Sierra**, ```nvda_drv=1``` in **config.plist** under **Boot > Arguments** is no longer working to initiate drivers. Clover has been updated with a new System Parameter setting called **NvidiaWeb**.
 

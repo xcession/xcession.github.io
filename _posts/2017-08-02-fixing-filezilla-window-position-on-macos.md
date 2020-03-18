@@ -5,7 +5,7 @@ date:   2017-08-02 20:08:49 +0700
 tags: filezilla macos window
 ---
 
-## Fixing FileZilla Window Position
+# Fixing FileZilla Window Position
 
 Somehow FileZilla window stuck under the macOS menubar.
 

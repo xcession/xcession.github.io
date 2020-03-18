@@ -5,13 +5,13 @@ date:   2019-05-27 13:13:22 +0700
 tags: linux shortcut
 ---
 
-## Creating Desktop Shortcut or Launcher
+# Creating Desktop Shortcut or Launcher
 
 Users start programs on Linux with “launchers”. These files contain specific instructions for how the Linux operating system should run the program and how the icon should look, among other things. On Linux, if you want to create application menu shortcuts, you’ll find that it’s a bit more difficult, compared to Mac or Windows, as users can’t just right-click on a program and select the “create shortcut” option. Instead, if you’d like to create application menu shortcuts on the Linux desktop, it’s an involved process that takes a bit of know-how.
 
 A desktop shortcut is represented by a corresponding `.desktop` file which contains meta information of a given app (e.g., name of the app, launch command, location of icon file, etc.). Desktop shortcut files are placed in `/usr/share/applications` or `~/.local/share/applications`. The former directory stores desktop shortcuts that are available for every user, while the latter folder contains shortcuts created for a particular user only.
 
-## Application Menu Shortcuts – Terminal
+# Application Menu Shortcuts – Terminal
 
 To manually create a desktop shortcut for a particular program or command, you can create a `.desktop` file using any text editor, and place it in either `/usr/share/applications` or `~/.local/share/applications`. A typical .desktop file looks like the following.
 
@@ -95,41 +95,41 @@ Install your custom app shortcut system-wide with:
 sudo mv ~/Desktop/example.desktop /usr/share/applications
 ```
 
-## Application Menu Shortcuts – Alacarte
+# Application Menu Shortcuts – Alacarte
 
 There are many menu editors on Linux. For the most part, they all work similarly and do the same thing. For best results, we recommend using the Alacarte app. It’s easy to use, works on everything and can be installed on even the most obscure Linux distributions (due to it’s relationship to the Gnome project).
 
-### Ubuntu
+## Ubuntu
 
 ```
 $ sudo apt install alacarte
 ```
 
-### Debian
+## Debian
 
 ```
 $ sudo apt-get install alacarte
 ```
 
-### Arch Linux
+## Arch Linux
 
 ```
 $ sudo pacman -S alacarte
 ```
 
-### Fedora
+## Fedora
 
 ```
 $ sudo dnf install alacarte -y
 ```
 
-### OpenSUSE
+## OpenSUSE
 
 ```
 $ sudo zypper install alacarte
 ```
 
-### Generic Linux
+## Generic Linux
 
 Not able to find the Alacarte menu editor app on your Linux distribution? [Visit the souce code site](https://gitlab.gnome.org/GNOME/alacarte/) and build it yourself!
 

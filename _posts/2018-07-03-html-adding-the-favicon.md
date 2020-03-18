@@ -5,7 +5,7 @@ date:   2018-07-03 03:46:22 +0700
 tags: html favicon
 ---
 
-## Adding the Favicon
+# Adding the Favicon
 
 Place the following the `<head>` section of the HTML file.
 
@@ -26,7 +26,7 @@ Place the following the `<head>` section of the HTML file.
 <link rel="icon" href="path/to/favicon.png">
 ```
 
-## Force refresh the Favicon
+# Force refresh the Favicon
 
 To refresh your site's favicon you can force browsers to download a new version using the link tag and a querystring on your filename. This is especially helpful in production environments to make sure your users get the update.
 
