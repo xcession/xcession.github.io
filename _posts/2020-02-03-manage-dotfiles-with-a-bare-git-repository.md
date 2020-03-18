@@ -5,7 +5,7 @@ date:   2020-02-03 23:34:59 +0700
 tags: dotfiles git github
 ---
 
-## Setup
+# Setup
 
 Git is the only dependency. The following four lines will set up the bare repository.
 
@@ -31,7 +31,7 @@ dotfiles remote add origin https://www.github.com/username/repo.git
 dotfiles push origin master
 ```
 
-## Installing dotfiles to another system
+# Installing dotfiles to another system
 
 It just needs two shell commands before fetching the remote repo.
 

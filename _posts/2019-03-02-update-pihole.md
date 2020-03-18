@@ -5,7 +5,7 @@ date:   2019-03-02 02:46:11 +0700
 tags: raspberry_pi pihole update
 ---
 
-## Updating Pi-hole
+# Updating Pi-hole
 
 We cannot update Pi-hole from the Web interface as we need to restart the server, which would interrupt the update process.
 

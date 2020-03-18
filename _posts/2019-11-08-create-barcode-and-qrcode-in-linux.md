@@ -5,7 +5,7 @@ date:	2019-11-08 20:34:43 +0700
 tags: linux barcode qrcode
 ---
 
-## Install GNU Barcode
+# Install GNU Barcode
 
 On Debian based distribution:
 
@@ -19,7 +19,7 @@ On Arch Linux:
 $ sudo pacman -S barcode
 ```
 
-### To Create a Barcode
+## To Create a Barcode
 
 Create the barcode by using the following command:
 

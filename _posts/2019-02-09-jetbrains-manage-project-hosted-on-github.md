@@ -5,7 +5,7 @@ date:   2019-02-09 19:21:13 +0700
 tags: jetbrains github vcs
 ---
 
-## Check out a project (clone)
+# Check out a project (clone)
 
 You can clone a repository that you want to contribute to directly from WebStorm and create a new project based on it.
 
@@ -17,7 +17,7 @@ You can clone a repository that you want to contribute to directly from WebStorm
 
 - Click **Clone**. If you want to create a project based on these sources, click Yes in the confirmation dialog. WebStorm will automatically set Git root mapping to the project root directory.
 
-## Share a project on GitHub
+# Share a project on GitHub
 
 You can add a remote GitHub repository for a project you are developing locally, so that others can view it or contribute to it.
 
@@ -35,7 +35,7 @@ You can add a remote GitHub repository for a project you are developing locally,
 
 - Click **Share** to initiate a new repository and upload project sources to it.
 
-## Jump to the GitHub version of a file
+# Jump to the GitHub version of a file
 
 You can jump from WebStorm to the GitHub version of a file. WebStorm detects which branch is currently active as well as the latest revision of the file, and opens the GitHub copy of the selected file in the corresponding commit in your web browser. If you are opening the GitHub file version from the editor, the file will be also automatically scrolled to the current line.
 

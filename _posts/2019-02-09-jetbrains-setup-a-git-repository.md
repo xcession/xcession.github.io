@@ -5,7 +5,7 @@ date:   2019-02-09 21:06:56 +0700
 tags: jetbrains git repository
 ---
 
-## Check out a project from a remote host (clone)
+# Check out a project from a remote host (clone)
 
 WebStorm allows you to check out (in Git terms **clone**) an existing repository and create a new project based on the data you've downloaded.
 
@@ -15,11 +15,11 @@ WebStorm allows you to check out (in Git terms **clone**) an existing repository
 
 - Click **Clone**. If you want to create a WebStorm project based on the sources you have cloned, click **Yes** in the confirmation dialog. Git root mapping will be automatically set to the project root directory.
 
-## Put an existing project under Git version control
+# Put an existing project under Git version control
 
 You can create a local Git repository based on an existing project sources.
 
-### Associate the entire project into a single Git repository
+## Associate the entire project into a single Git repository
 
 - Open the project that you want to put under Git.
 
@@ -31,7 +31,7 @@ You can create a local Git repository based on an existing project sources.
 
 > Note, that this only applicable to Git and Mercurial.
 
-### Associate different directories within the project with different Git repositories
+## Associate different directories within the project with different Git repositories
 
 - Open the project that you want to put under Git.
 
@@ -43,7 +43,7 @@ You can create a local Git repository based on an existing project sources.
 
 - If you are creating multiple Git repositories inside the project structure, repeat the previous steps for each directory.
 
-### Add files to the local repository
+## Add files to the local repository
 
 After you have [initialized a Git repository](https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#put-existing-project-under-Git) for your project, you need to add project data to it.
 
@@ -55,7 +55,7 @@ You can also add files to your local Git repository from the Project tool window
 
 When Git integration is enabled in your project, WebStorm suggests adding each newly created file under Git. You can change this behavior in the **Settings/Preferences** dialog `⌘,` under **Version Control | Confirmation**). If you want certain files to always remain unversioned, you can [configure Git to ignore them](https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#ignore-files).
 
-## Exclude files from version control (ignore)
+# Exclude files from version control (ignore)
 
 Sometimes you may need to leave files of certain types unversioned. These can be VCS administration files, artifacts of utilities, backup copies, and so on. You can ignore files through WebStorm, and the IDE will not suggest adding them to Git and will highlight them as ignored.
 
@@ -73,7 +73,7 @@ Git lets you ignored the file patterns in two kinds of configuration files:
 
     If there is no `.gitignore` files in the VCS root directory, you can right-click anywhere in the Project window, choose **New | File** and type `.gitignore` in the **New File** dialog.
 
-### Add files to .gitignore or .git/info/exclude
+## Add files to .gitignore or .git/info/exclude
 
 - Decide what [kind of Git configuration file](https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#add_gitignore) you are going to use to ignore files. If in doubt, use `.gitignore`.
 
@@ -81,7 +81,7 @@ Git lets you ignored the file patterns in two kinds of configuration files:
 
 - Right clickk the selection and choose **Git | Add to .gitignore** or **Git | Add to .git/info/exclude**. [File colors in these views](https://www.jetbrains.com/help/webstorm/file-status-highlights.html) help you identify the status of the file.
 
-## Check project status
+# Check project status
 
 WebStorm allows you to check the status of your local working copy compared to the repository version of the project. It uses [specific colors](https://www.jetbrains.com/help/webstorm/file-status-highlights.html) to let you see which files have been modified, which new files have been added to the VCS, and which files are not being tracked by Git.
 
@@ -95,7 +95,7 @@ If there were conflicts during a merge that were not resolved, the **Merge Confl
 
 For more info on changelists, see [Group changes into different changelists](https://www.jetbrains.com/help/webstorm/work-on-several-features-simultaneously.html#changelists).
 
-### Track changes to a file in the editor
+## Track changes to a file in the editor
 
 You can also track changes to a file as you modify it in the editor. All changes are highlighted with **change markers** that appear in the left gutter next to the modified lines, and show the type of changes introduced since you last [synchronized with the repository](https://www.jetbrains.com/help/webstorm/sync-with-a-remote-repository.html). When you commit changes to the repository, change markers disappear.
 
@@ -115,7 +115,7 @@ You can rollback changes by clicking the **Rollback** icon and explore the diffe
 
 Instead of reverting the whole file, you can copy any part of the contents of this popup and paste it into the editor.
 
-## Add a remote repository
+# Add a remote repository
 
 To be able to collaborate on your Git project, you need to configure remote repositories that you [fetch](https://www.jetbrains.com/help/webstorm/sync-with-a-remote-repository.html#fetch) data from and [push](https://www.jetbrains.com/help/webstorm/commit-and-push-changes.html) to when you need to share your work.
 
@@ -123,7 +123,7 @@ If you have [cloned a remote Git repository](https://www.jetbrains.com/help/webs
 
 However, if you [created a Git repository](https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#put-existing-project-under-Git) based on local sources, you need to add a remote repository for other contributors to be able to push their changes to it, and for you to be able to share the results of your work.
 
-### Define a remote
+## Define a remote
 
 - Create an empty repository on any Git hosting, such as [Bitbucket](https://bitbucket.org/) or [Github](https://github.com/).
 
@@ -135,7 +135,7 @@ However, if you [created a Git repository](https://www.jetbrains.com/help/websto
 
 In some cases, you also need to add a second remote repository. This may be useful, for example, if you have cloned a repository that you do not have write access to, and you are going to push changes to your own [fork](https://www.jetbrains.com/help/webstorm/contribute-to-projects.html#fork) of the original project. Another common scenario is that you have cloned your own repository that is somebody else's project fork, and you need to synchronize with the original project and fetch changes from it.
 
-### Add a second remote
+## Add a second remote
 
 - From the main menu, choose **VCS | Git | Remotes**. The **Git Remotes** dialog will open.
 
@@ -150,6 +150,5 @@ To edit a remote (for example, to change the name of the original project that y
 To remove a repository that is no longer valid, select it in the **Git Remotes** dialog and click the **Remove -** button on the toolbar, or press `⌘⌦`.
 
 Source:
-
 - [Set up a Git repository](https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html)
 - [How do I start working with Open Source and GitHub?](https://www.youtube.com/watch?v=lyiBnyPPnG4)

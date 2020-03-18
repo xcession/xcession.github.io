@@ -5,7 +5,7 @@ date:   2019-07-23 02:37:41 +0700
 tags: linux filesystem
 ---
 
-## The Linux Filesystem
+# The Linux Filesystem
 
 - `/bin` (and `/sbin`) were intended for programs that needed to be on a small `/` partition before the larger `/usr`, etc. partitions were mounted. These days, it mostly serves as a standard location for key programs like `/bin/sh`, although the original intent may still be relevant for e.g. installations on small embedded devices.
 - `/sbin`, as distinct from `/bin`, is for system management programs (not normally used by ordinary users) needed before `/usr` is mounted.

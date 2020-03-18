@@ -5,7 +5,7 @@ date:   2017-02-06 16:14:41 +0700
 tags: macos screenshot
 ---
 
-## Changing the Default Screenshots Save Location
+# Changing the Default Screenshots Save Location
 
 - Create a new folder using Finder (eg. Desktop/Screenshots).
 - Go to **Applications > Utilities > Terminal**.

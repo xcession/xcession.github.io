@@ -5,7 +5,7 @@ date:   2019-11-10 22:10:42 +0700
 tags: windows chocolatey git
 ---
 
-## Using Chocolatey
+# Using Chocolatey
 
 - Install [Chocolatey](https://chocolatey.org/).
 - Install Git

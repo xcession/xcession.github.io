@@ -5,7 +5,7 @@ date:   2019-06-14 22:38:48 +0700
 tags: 10.13 apfs high_sierra macos
 ---
 
-## The APFS on High Sierra
+# The APFS on High Sierra
 
 As you already know, macOS High Sierra includes a new file system APFS. If your system drive is solid state, the installer will convert from HFS+J to APFS in both a fresh install scenario and an update scenario.
 
@@ -13,7 +13,7 @@ Fortunately, there a ways around this automatic conversion. It is controlled by 
 
 > **Note:** _This guide does not apply to macOS Mojave (or later)._ Apple has removed this option and will force APFS conversion. You can use CCC (Carbon Copy Cloner) to clone from APFS to HFS+J, but that may be a fight you have to take on every update going forward. So,... If you're running Mojave, you will probably end up adopting APFS.
 
-## Update scenario using 'startosinstall'
+# Update scenario using 'startosinstall'
 
 After downloading the 10.13 installer, instead of running it, quit.
 
@@ -25,7 +25,7 @@ $ /Applications/"Install macOS High Sierra.app"/Contents/Resources/startosinstal
 
 The system will copy some files, then reboot, and you'll be able to start the installer (without APFS conversion) by booting the "Boot macOS Install from ..." option in Clover.
 
-## Fresh install scenario (or update) using 'startosinstall'
+# Fresh install scenario (or update) using 'startosinstall'
 
 You _may_ be able to use the startosinstall in the fresh install scenario by invoking it from Terminal after booting the installer from USB. But when I tested it in the betas, it did not work, likely due to a bug in the startosinstall code that prevented it from running from the installer. It seems to be fixed by Apple in later releases of the 10.13 installer.
 
@@ -39,7 +39,7 @@ $ /Volumes/"Image Volume/Install macOS High Sierra.app"/Contents/Resources/start
 
 > **Note:** Change `the_target_volume` as appropriate for the actual name you decided to use for your macOS target volume. Hopefully it is obvious that the target volume must already be formatted as HFS+J.
 
-## Fresh install scenario (or update), modifying minstallconfig.xml using PlistBuddy
+# Fresh install scenario (or update), modifying minstallconfig.xml using PlistBuddy
 
 The process involves creating an installer USB with `createinstallmedia`, then booting that USB (via Clover on the same USB). You then run the installer, create an HFS+J partition suitable for macOS with Disk Utility, then point the installer to that partition.
 
@@ -62,7 +62,7 @@ cd "macOS Install Data"
 
 That's it! Now you're ready to quit Terminal, reboot, and continue the installation process by booting the "Boot macOS Install from ..." partition. When you're done, you'll have a fresh install on HFS+J instead of APFS.
 
-## Fresh install scenario (or update), modifying minstallconfig.xml using vi
+# Fresh install scenario (or update), modifying minstallconfig.xml using vi
 
 The process involves creating an installer USB with createinstallmedia, then booting that USB (via Clover on the same USB). You then run the installer, create an HFS+J partition suitable for macOS with Disk Utility, then point the installer to that partition.
 
@@ -119,6 +119,5 @@ If the file doesn't look right, don't save it:
 - press ':q!' (without the quotes) and press enter
 
 That's it! Now you're ready to quit Terminal, reboot, and continue the installation process by booting the "Boot macOS Install from ..." partition. When you're done, you'll have a fresh install on HFS+J instead of APFS.
-
 
 Source: [Avoid APFS conversion on High Sierra update or fresh install](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/)

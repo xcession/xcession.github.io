@@ -5,7 +5,7 @@ date:   2017-02-02 01:15:16 +0700
 tags: raspberry_pi rpi sdcard macos backup restore
 ---
 
-## Backup FROM the SD card.
+# Backup FROM the SD card.
 
 - Find the SD card.
 
@@ -23,7 +23,7 @@ tags: raspberry_pi rpi sdcard macos backup restore
 
 	`$ diskutil eject /dev/disk#`
 
-## Restore TO the SD card.
+# Restore TO the SD card.
 
 - Find the SD card.
 

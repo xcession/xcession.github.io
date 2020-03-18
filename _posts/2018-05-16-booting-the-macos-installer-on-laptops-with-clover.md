@@ -5,7 +5,7 @@ date:   2018-05-16 20:31:19 +0700
 tags: clover hackintosh installer laptop
 ---
 
-## Installing Clover to USB
+# Installing Clover to USB
 
 It is best to use a simple USB2 drive for this purpose. If a USB2 stick doesn't work, try USB3. The ports which will be working without patching (post install process) is hardware dependent.
 
@@ -45,7 +45,7 @@ In my case, it provides this output:
 
 So I can see that the USB is at `/dev/disk1`. Be careful with diskutil as you can lose data without a mechanism for recovery if you repartition the wrong disk.
 
-### Option 1 (MBR, two partitions):
+## Option 1 (MBR, two partitions):
 
 ```
 # repartition /dev/disk1 MBR, two partitions
@@ -77,7 +77,7 @@ Finished partitioning on disk1
    2:                  Apple_HFS install_osx             7.8 GB     disk1s2
 ```
 
-### Option 2 (GPT, one partition):
+## Option 2 (GPT, one partition):
 
 ```
 # repartition /dev/disk1 GPT, one partition
@@ -175,7 +175,7 @@ The resulting drivers64UEFI should look something like this:
 
 Note: You may have VboxHfs-64.efi there too. But it doesn't matter. It will be disabled by the config.plist. If you want to use VboxHfs-64.efi you will need to remove the disabler entry for it in config.plist/DisableDrivers.
 
-## Preparing essential kexts
+# Preparing essential kexts
 
 Remove EFI/CLOVER/kexts/10.6, 10.7, 10.8, 10.9, 10.10, leaving just 'Other'
 
@@ -263,7 +263,6 @@ Copy your selected configuration file, and paste it to /EFI/Clover, make sure it
 
 In case you cannot boot with a valid ig-platform-id (may need to inject EDID, or patch IOKit/CoreDisplay when you have a 4k display, or other problems), use an invalid ig-platform-id (0x12345678) and deal with the graphics issue at post-install.
 
-
 DVMT-prealloc on Broadwell/Skylake/Kaby Lake
 
 The Broadwell and Skylake graphics kexts provided by Apple require DVMT-prealloc to be set 64mb or larger. Many laptops set it by default to 32mb, which is not large enough and will cause a KP (kernel panic).
@@ -292,7 +291,6 @@ Alternately, you can use IntelGraphicsDVMTFixup.kext, which implements the 32MB 
 It is available here:
 [https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup](https://github.com/BarbaraPalvin/IntelGraphicsDVMTFixup)
 
-
 Note regarding CPU power management and SSDTs
 
 If you're getting a panic in AppleIntelCPUPowerManagement and/or SMC_ACPI_PlatformPlugin it may be related to your OEM CPU power management related SSDTs.
@@ -301,13 +299,11 @@ Some systems may need to drop some of the OEM SSDTs. This happens most frequentl
 
 Always use a plist editor (such as Xcode or PlistEdit Pro) to edit config.plist.
 
-
 Building the OS X installer
 
 There are two ways to copy the OS X installer to USB:
 - 'createinstallmedia' method (recommended)
 - BaseBinaries clone method (use when 'createinstallmedia' is not available)
-
 
 createinstallmedia method
 
@@ -371,7 +367,6 @@ This method is not available in ML, Lion, SL.
 
 Using 'createinstallmedia' is the only method that results in the creation of a Recovery partition.
 
-
 BaseBinaries clone method
 
 Note: ATM, BaseBinaries clone method does not work with High Sierra.
@@ -430,8 +425,7 @@ First generation Intel HD graphics are not well supported, and require significa
 
 To reach the installer, use a bogus FakeID (Clover Options -> Graphics Injector -> FakeID), such as 0x12345678.
 
-
-## Booting the Installer
+# Booting the Installer
 
 After you create you USB, it is ready to go... Read post #2 for more details on using the USB.
 
@@ -441,8 +435,7 @@ Note that you may see it listed twice (depending on setting of legacy boot). Cho
 
 You can press the spacebar in Clover to select various options. It is a good idea to use this to boot verbose (the config.plist files I provide do not have verbose turned on by default). In verbose mode you have a better idea of the booting process and get better information in the case of a crash.
 
-
-## Clover Resources
+# Clover Resources
 
 It is a good idea to become familiar with the software you are using and read the documentation.
 
@@ -456,10 +449,9 @@ Clover patch/bug reports: http://www.insanelymac.com/forum/topic/306156-clover-b
 
 Clover changes: http://www.insanelymac.com/forum/topic/304530-clover-change-explanations/
 
+# Installation and Post Installation
 
-## Installation and Post Installation
-
-### Using the OS X Installer
+## Using the OS X Installer
 
 Now you have your USB installer, so now you need to use it on the target computer.
 
@@ -493,7 +485,7 @@ Keep in mind that you will probably need to keep the Nvidia drivers from loading
 Read here for details:
 [https://www.tonymacx86.com/threads/fix-window-server-service-only-ran-for-0-seconds-with-dual-gpu.233092/](https://www.tonymacx86.com/threads/fix-window-server-service-only-ran-for-0-seconds-with-dual-gpu.233092/)
 
-### Post Installation
+## Post Installation
 
 10. At this point, you are ready for "Post Installation", you first step should be to install the Clover bootloader to your HDD. Installing Clover to your HDD is very similar to installing to the USB installer. See post #1 for details.
 
@@ -524,7 +516,7 @@ HD4200/HD4600/HD4400 mobile: By using the config.plist for HD4600, you'll have C
 
 The FAQ covers many typical issues/problems: [http://www.tonymacx86.com/yosemite-laptop-support/164990-faq-read-first-laptop-frequent-questions.html](http://www.tonymacx86.com/yosemite-laptop-support/164990-faq-read-first-laptop-frequent-questions.html)
 
-### Installing Kexts
+## Installing Kexts
 
 You should install all kexts you need (including FakeSMC, VoodooPS2Controller, etc) to /Library/Extensions (/L/E) or /System/Library/Extensions (/S/L/E) for 10.10.x and prior using a kext installer or Terminal. Think carefully about "kexts you need". For example, if you needed HPRAIDInjector.kext for a SATA chip locked in RAID mode, you'll need to install it in order to boot (without it, the system would be unable to mount root and would get stuck early in the boot process).
 
@@ -546,8 +538,7 @@ IMO, placing kexts in Clover/kexts for injection when not needed is like "flying
 
 You might be wondering if this will result in duplicate kexts being loaded due to the kexts in EFI/Clover/kexts being injected when they are also installed to the system volume. The answer is no, not generally. With config.plist/SystemParameters/InjectKexts="Detect", kexts in EFI/Clover/kexts are not injected when FakeSMC.kext is in kernel cache. Because FakeSMC.kext is always a "kext you need", you will always install it to the system volume, which will put it in kernel cache. Kernel cache, of course, will not have FakeSMC.kext when booting the installer or recovery, so in these cases the kexts in EFI/Clover/kexts *will* be injected as you would expect.
 
-
-### Mounting EFI
+## Mounting EFI
 
 Eventually, you'll want to make changes to the config.plist, kexts, or other Clover configuration items on the EFI partition. To access the EFI partition, you must mount it manually. Unlike other volumes, it is not mounted automatically.
 
@@ -588,7 +579,6 @@ ForceKextsToLoad
 
 Looking at your config.plist, you will notice an entry in KernelAndKextPatches/ForceKextsToLoad for IONetworkingFamily.kext. This is intended only for installation scenarios and should probably be removed for post-install.
 
-
 Disabled patches in the config.plist files
 
 There are a number of useful patches in the provided config.plist files. These patches are disabled as some of them are system specific, or specific to a particular version of OS X. You will probably find guides that will mention the same patches.
@@ -604,7 +594,6 @@ More information on KextsToPatch at the Clover wiki.
 Please read the comment in each patch to know more about its purpose.
 
 Always use a plist editor (such as Xcode or PlistEdit Pro) when making changes to config.plist.
-
 
 Dual boot Windows UEFI
 
@@ -654,7 +643,6 @@ Windows time vs. OS X time
 Windows expects the real time clock to be set to local time. OS X expects UTC. You can change Windows to use UTC by editing RealTimeIsUniversal in the Windows registry.
 
 [http://www.tonymacx86.com/general-help/133719-fix-incorrect-time-windows-osx-dual-boot.html](http://www.tonymacx86.com/general-help/133719-fix-incorrect-time-windows-osx-dual-boot.html)
-
 
 Find My Mac/Locking
 

@@ -5,7 +5,7 @@ date:   2019-10-27 16:26:57 +0700
 tags: unity gamedev transition
 ---
 
-## Fade Between Scenes in Unity
+# Fade Between Scenes in Unity
 
 - Add all scenes to Build Settings (just in case).
 - In the **Hierarchy** window, create **UI > Image**. This will create a **Canvas > Image** and **EventSystem**.

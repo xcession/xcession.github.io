@@ -5,7 +5,7 @@ date:   2018-07-05 15:41:33 +0700
 tags: bootstrap wordpress webdev
 ---
 
-## Adding an empty space if Admin bar is displayed
+# Adding an empty space if Admin bar is displayed
 
 Using the Wordpress function to query if the toolbar is displayed, and then create an empty div below the `navbar div`:
 

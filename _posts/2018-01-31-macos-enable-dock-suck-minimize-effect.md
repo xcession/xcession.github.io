@@ -5,7 +5,7 @@ date:   2018-01-31 08:28:20 +0700
 tags: macos dock
 ---
 
-## Enable "Suck" Minimize Effect
+# Enable "Suck" Minimize Effect
 
 - Open Terminal window.
 - Enter following command.

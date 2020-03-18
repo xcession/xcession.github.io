@@ -5,7 +5,7 @@ date:   2019-11-04 +0700
 tags: kali linux xfce4 login
 ---
 
-## Enable Automatic Login
+# Enable Automatic Login
 
 Change this:
 

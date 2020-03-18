@@ -5,7 +5,7 @@ date:   2017-05-20 18:29:58 +0700
 tags: macos finder
 ---
 
-## Showing Hidden Files in Finder
+# Showing Hidden Files in Finder
 
 In the Terminal type:
 

@@ -5,7 +5,7 @@ date:   2019-10-11 22:14:02 +0700
 tags: tmux terminal
 ---
 
-## Changing tmux Default Key Binding
+# Changing tmux Default Key Binding
 
 Bt default, command key bindings are prefixed by `ctrl+b`. For example, to vertically split a window type `ctrl+b %`.
 

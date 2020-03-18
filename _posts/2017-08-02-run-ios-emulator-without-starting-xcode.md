@@ -5,7 +5,7 @@ date:   2017-08-02 20:10:45 +0700
 tags: emulator ios macos xcode
 ---
 
-## Starting iOS Emulator WITHOUT Starting Xcode
+# Starting iOS Emulator WITHOUT Starting Xcode
 
 Assuming you have Xcode installed in `/Applications`, then you can do this from the command line to start the iPhone Simulator:
 
@@ -30,4 +30,3 @@ Which would mean you could start the iPhone Simulator from the command line with
 ```
 $ simulator
 ``
-

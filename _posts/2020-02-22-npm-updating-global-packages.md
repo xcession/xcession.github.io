@@ -5,7 +5,7 @@ date:   2020-02-22 15:36:10 +0700
 tags: npm node.js update
 ---
 
-## Updating Global Packages
+# Updating Global Packages
 
 To update global packages, you can use `npm install -g <package>`:
 

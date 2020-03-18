@@ -5,7 +5,7 @@ date:   2017-10-13 12:20:03 +0700
 tags: icns macos png
 ---
 
-## Converting .ICNS to .PNG
+# Converting .ICNS to .PNG
 
 Using following command in Terminal to convert .icns to .png
 

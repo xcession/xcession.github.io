@@ -5,13 +5,13 @@ date:   2019-02-10 07:05:59 +0700
 tags: jetbrains eslint webstorm
 ---
 
-## ESLint
+# ESLint
 
 WebStorm integrates with [ESLint](http://eslint.org/) which brings a wide range of linting rules that can also be extended with plugins. WebStorm shows warnings and errors reported by ESLint right in the editor, as you type. With ESLint, you can also use [JavaScript Standard Style](https://standardjs.com/).
 
 To view the description of a problem, hover over the highlighted code.
 
-### Installing, enabling, and configuring ESLint in WebStorm
+## Installing, enabling, and configuring ESLint in WebStorm
 
 - Open the built-in WebStorm **Terminal** (`⌥F12`) and type `npm install eslint --save-dev` or `npm install eslint -g` at the command prompt.
 
@@ -34,15 +34,15 @@ To view the description of a problem, hover over the highlighted code.
 
     - In the **Additional Rules Directory** field, specify the location of the files with additional code verification rules. These rules will be applied after the rules from `.eslintrc` or the above specified custom configuration file and accordingly will override them.
 
-### Configuring highlighting for ESLint
+## Configuring highlighting for ESLint
 
 By default, WebStorm marks the detected errors and warnings based on the severity levels from the ESLint configuration. For example, errors are highlighted with a red squiggly line, while warnings are marked with a yellow background.
 
-#### To change the severity level of a rule in the ESLint configuration
+### To change the severity level of a rule in the ESLint configuration
 
 In `.eslintrc` or under **eslintConfig** in `package.json`, locate the rule you want to edit and set its ID to **1 (warn)** or to **2 (error)**. Learn more from the [ESLint](https://eslint.org/docs/user-guide/configuring#configuring-rules) official website.
 
-#### To ignore the severity levels from the configuration
+### To ignore the severity levels from the configuration
 
 - In the **Settings > Preferences** dialog (`⌘,`), select **Editor > Inspections**. The [Inspections page](https://www.jetbrains.com/help/webstorm/inspection-settings.html) opens.
 
@@ -50,7 +50,7 @@ In `.eslintrc` or under **eslintConfig** in `package.json`, locate the rule you 
 
 - In the right-hand pane, clear the **Use rule severity from the configuration file** checkbox and select the severity level to use instead of the default one.
 
-### Importing code style from ESLint
+## Importing code style from ESLint
 
 You can import some of the [ESLint code style rules](http://eslint.org/docs/rules/) to the WebStorm [JavaScript code style settings](https://www.jetbrains.com/help/webstorm/settings-code-style-javascript.html). That enables WebStorm to use more accurate code style options for your project when auto-completing, generating, or refactoring the code or adding import statements. When you use the Reformat action, WebStorm will then no longer break properly formatted code from the ESLint perspective.
 

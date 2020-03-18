@@ -5,19 +5,19 @@ date:   2019-11-08 02:49:44 +0700
 tags: react-native windows chocolatey node.js
 ---
 
-## Setting Up on Windows
+# Setting Up on Windows
 
-### Install Chocolatey
+## Install Chocolatey
 
 Windows doesn't really come with its own package manager that we can use to install the needed tools. So the first thing we'll do is install one called [Chocolatey](https://chocolatey.org/).
 
-#### Requirements
+### Requirements
 
 - Windows 7+ / Windows Server 2003+
 - PowerShell v2+
 - .NET Framework 4+ (the installation will attempt to install .NET 4.0 if you do not ave it install)
 
-#### Chocolatey Install
+### Chocolatey Install
 
 - Ensure that you are using an [administrative shell](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)
 - Install with `powershell.exe` you must ensure [Get-ExecutionPolicy](https://go.microsoft.com/fwlink/?LinkID=135170) is not Restricted.
@@ -32,7 +32,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 - If you don't see any errors, you are ready to use Chocolatey!
 - Type `choco` or `choco -?` now.
 
-### Install Python
+## Install Python
 
 Python comes with the command line tools required by React Native:
 
@@ -40,7 +40,7 @@ Python comes with the command line tools required by React Native:
 choco install -y python 2
 ```
 
-### Install JDK
+## Install JDK
 
 The JDK allows your computer to understand and run Java code. Be sure to install JDK version 8 as that's the one required by React Native:
 
@@ -48,15 +48,15 @@ The JDK allows your computer to understand and run Java code. Be sure to install
 choco install jdk8
 ```
 
-### Install NVM
+## Install NVM
 
 Node has an [installer for Windows](https://nodejs.org/en/download/). It's better to use NVM for Windows, as that will enable you to install multiple versions of Node so that you can test new versions, or use a different version depending on the project you're currently working on. For that, you can use NVM for Windows. Download [nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases), extract it and execute `nvm-setup.exe` to install it.
 
-### Install Watchman
+## Install Watchman
 
 Watchman optimizes the compilation time of your React Native app. it's an optional install if you're net working on a large project. You can find the [install instructions on their website](https://facebook.github.io/watchman/docs/install.html#download-for-windows-beta).
 
-### Update the Environment Variables
+## Update the Environment Variables
 
 This is the final step in setting up React Native on Windows. This is where we update the environment variables so the operating system is aware of all the tools required by React Native. Follow these steps right before you install the React Native CLI.
 

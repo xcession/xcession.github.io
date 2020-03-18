@@ -5,7 +5,7 @@ date:   2019-10-11 22:11:48 +0700
 tags: unity gamedev rename
 ---
 
-## Renaming the Unity Project
+# Renaming the Unity Project
 
 To change **Unity project name**:
 

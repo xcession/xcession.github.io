@@ -5,7 +5,7 @@ date:   2017-02-03 17:24:54 +0700
 tags: macos brew.sh homebrew mpv
 ---
 
-## Installation
+# Installation
 
 - Install **Xcode** from AppStore.
 - Install **Command Line Tools** from `Xcode > Preferences > Downloads`.
@@ -31,7 +31,7 @@ tags: macos brew.sh homebrew mpv
 
 - **Done!**
 
-## Configuration
+# Configuration
 
 To make your own configuration, create the folders `~/.config/mpv` and create the file `mpv.conf` in there. Paste the the options you want to change in that file (see mpv’s documentation for all possible options).
 
@@ -39,7 +39,7 @@ If you have sufficient GPU power, it is recommended to use the opengl-hq video-o
 
 	vo=opengl-hq:icc-profile-auto
 
-## Notes
+# Notes
 
 - Remember to keep everything up-to-date using `brew update`. Since mpv is on –HEAD, `brew update` won’t work for it. You need to uninstall and reinstall (`brew rm mpv && brew install --HEAD --with-bundle --with-bluray-support --with-libdvdread --with-little-cms2 --with-lua --with-bundle mpv`), as it’s a HEAD only formula homebrew is not smart enough to figure out the version it built.
 - Having MacPorts or Fink installed may break brew. See `brew doctor` if you run into problems.

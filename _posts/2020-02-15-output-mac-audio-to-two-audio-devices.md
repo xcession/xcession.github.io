@@ -5,7 +5,7 @@ date:   2020-02-15 18:22:40 +0700
 tags: macos audio
 ---
 
-## Output Mac Audio to Two Audio Devices
+# Output Mac Audio to Two Audio Devices
 
 - Make sure that the headphones you want to use together are paired with your Mac over Bluetooth and/or connected via the headphone jack.
 - Launch the **Audio MIDI Setup** app, located in **Applications > Utilities**.

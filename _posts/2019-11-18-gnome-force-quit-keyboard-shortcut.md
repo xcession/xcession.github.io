@@ -5,7 +5,7 @@ date:	2019-11-18 20:40 +0700
 tags: gnome shortcut keyboard
 ---
 
-## Add Force Quit Keyboard Shortcut
+# Add Force Quit Keyboard Shortcut
 
 When you're using Linux with the GNOME UI, don't you hate it when you have to go to into the terminal or add the the force quit button to the panel just so you can exit an unresponsive program?
 
